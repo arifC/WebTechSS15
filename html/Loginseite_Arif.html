@@ -12,24 +12,26 @@
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	
+	<link rel="stylesheet" href="../css/login_style.css" type="text/css"/>
 </head>
-<body>
-	<div class="container-fluid text-center">
+<header class="text-center">
+	<div class="row">
+		<div class="col-md-8 col-md-offset-2 img_login">
 		<h1>Musclepedia</h1>
 		<h2>Starkes Wissen rund um Fitness</h2>
-		<div class="col-md-2"></div>
-		<div class="col-md-8">
-		<div role="tabpanel">
-
-		  <!-- Nav tabs -->
+		</div>
+	</div>
+</header>
+<body>
+	<div class="row text-center">
+		<div class="col-md-8 col-md-offset-2" id="content">
 		  <ul class="nav nav-tabs" role="tablist" id="myTab">
-			<li role="presentation" class="active"><a href="#login" aria-controls="login" role="tab" data-toggle="tab">Login</a></li>
-			<li role="presentation"><a href="#register" aria-controls="register" role="tab" data-toggle="tab">Registrieren</a></li>
+			<li class="active"><a href="#login" role="tab" data-toggle="tab">Login</a></li>
+			<li><a href="#register" role="tab" data-toggle="tab">Registrieren</a></li>
 		  </ul>
-
-		  <!-- Tab panes -->
 		  <div class="tab-content">
-			<div role="tabpanel" class="col-md-6 tab-pane" id="login">
+			<div role="tabpanel" class="col-md-6 tab-pane active" id="login">
 				<form method="post">
 				<div class="form-group">
 					<h3>Login</h3>
@@ -40,10 +42,9 @@
 					</br>
 					<input type="submit" class="btn btn-primary" name="login" value="Login"/>
 				</div>
-				</form>
-				
+				</form>		
 			</div>
-			<div role="tabpanel" class="tab-pane col-md-6 active" id="register">
+			<div role="tabpanel" class="tab-pane col-md-6" id="register">
 				<form method="post" >
 				<div class="form-group"></div>
 					<h3>Registrieren</h3>
@@ -61,8 +62,13 @@
 			</div>
 		  </div>
 		</div>
-		</div>
-		<div class="col-md-2"></div>
+	<script type="text/javascript">
+		$(document).ready(function ($) {
+			$('#myTab').tab();
+    });
+	</script>
 	</div>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 </body>
 </html>
