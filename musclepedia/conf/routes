@@ -5,5 +5,5 @@
 # Home page
 GET     /                           controllers.Application.showSomething()
 
-# Map static resources from the /public folder to the /assets URL path
+# MaC:\Users\Felix\AppData\Local\Apps\2.0\NNTPZYMK.Z0P\RLWKT3WA.GAL\gith..tion_317444273a93ac29_0002.000d_6a9b565322d28a14p static resources from the /public folder to the /assets URL path
 GET     /assets/*file               controllers.Assets.at(path="/public", file)
