@@ -1,0 +1,21 @@
+@start("Musclepedia"){
+    <script src="@routes.Assets.at("javascripts/bmi.js")" type="text/javascript"></script>
+    <div class="row">
+        <script src=""></script>
+        <div class="col-md-8" id="helppage">
+            <p class="erklaerung">Wilkommen auf Musclepedia die Seite rund um Fitness! Unter Punkt X findest du Y unter Punkt z findest du Ö unter......</p>
+            <p>Um dir bei denen Fitnessprogramm zu Helfen bieten wir dir einen BMI Rechner und einen Kalorinrechner an beide findest du unten</p>
+            <p> Hier werden warscheinlich Tabs eingefügt einfach weil ich Tabs mag</p>
+            <h3>BMI Rechner </h3>
+            <p> ACHTUNG BMI kann nicht zwischen Muskeln und Fett unterscheiden! Daher soll man Vorsicht bei der Auswertung der Ergebnisse sein!</p>
+            <p><input type="text" id="gewicht" />Gewicht in KG </p>
+            <p><input type="text" id="groeße"/>Größe in m </p>
+            <select id="gesch">
+                <option>männlich</option>
+                <option>weiblich</option>
+            </select>
+            <p>Überprüfe bitte alle Angaben <input type="button" onClick="bmi()" class="success" value="RECHNE!"></p>
+            <div id="bmierg"></div>
+        </div>
+    </div>
+}

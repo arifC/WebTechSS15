@@ -13,4 +13,11 @@ public class Application extends Controller {
     }
 
 
+    public static Result start() {
+        return ok(home.render());
+    }
+
+    public static Result help() {
+        return ok(help.render());
+    }
 }
