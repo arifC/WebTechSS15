@@ -22,33 +22,34 @@
                             <input id="name1" class="form-control" type="text" placeholder="Name"/>
                             <label for="pass1">Passwort</label>
                             <input id="pass1" class="form-control" type="password" placeholder="Passwort"/>
-                            </br>
+                            <br/>
                             <input type="submit" class="btn btn-primary" name="login" value="Login"/>
                         </div>
                     </form>
                 </div>
                 <div role="tabpanel" class="tab-pane col-md-6" id="register">
                     <form method="post" >
-                        <div class="form-group"></div>
-                        <h3>Registrieren</h3>
-                        <label for="name2">Benutzername</label>
-                        <input id="name2" class="form-control" type="text"/>
-                        <label for="pass2">Passwort</label>
-                        <input id="pass3" class="form-control" type="password"/>
-                        <label for="pass3">Passwort wiederholen</label>
-                        <input class="form-control" type="password" name="passwords"/>
-                        <label for="email">Email-Adresse</label>
-                        <input id="email" class="form-control" type="email" name="mail"/>
-                        </br>
-                        <input type="submit" class="btn btn-primary" name="login" value="Registrieren"/>
+                        <div class="form-group">
+                            <h3>Registrieren</h3>
+                            <label for="name2">Benutzername</label>
+                            <input id="name2" class="form-control" type="text"/>
+                            <label for="pass2">Passwort</label>
+                            <input id="pass3" class="form-control" type="password"/>
+                            <label for="pass3">Passwort wiederholen</label>
+                            <input class="form-control" type="password" name="passwords"/>
+                            <label for="email">Email-Adresse</label>
+                            <input id="email" class="form-control" type="email" name="mail"/>
+                            <br/>
+                            <input type="submit" class="btn btn-primary" name="login" value="Registrieren"/>
+                        </div>
                     </form>
                 </div>
             </div>
         </div>
         <script type="text/javascript">
-		$(document).ready(function ($) {
-			$('#myTab').tab();
-    });
-	</script>
+            $(document).ready(function ($) {
+                $('#myTab').tab();
+              });
+    	</script>
     </div>
 }
