@@ -20,4 +20,10 @@ public class Application extends Controller {
     public static Result help() {
         return ok(help.render());
     }
+
+    public static Result oberkoerper() {
+        return ok(oberkoerper.render());
+    }
+
+
 }
