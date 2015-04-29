@@ -1,13 +1,13 @@
-New log file opened at Tue Apr 28 23:02:46 CEST 2015 by 372@ArifCerit
-Taking next connection to: 49390
-New client attempting to connect on port: 49391-49390
-  Address = /192.168.2.102:49390
-This client on port 49391 has uuid f6a4c35c-a3ae-4eb2-abe1-703fb6012e52 configName activator humanReadableName Activator protocolVersion 1 featureTags Vector()
-Connected Clients: activator-f6a4c35c-a3ae-4eb2-abe1-703fb6012e52
-Taking next connection to: 49390
-New client attempting to connect on port: 49392-49390
-  Address = /192.168.2.102:49390
-Handshake exception on socket: 49392
+New log file opened at Wed Apr 29 13:45:03 CEST 2015 by 3740@ArifCerit
+Taking next connection to: 51388
+New client attempting to connect on port: 51389-51388
+  Address = /172.20.156.243:51388
+This client on port 51389 has uuid 72a98227-93cc-4536-9867-8f95d2e39610 configName activator humanReadableName Activator protocolVersion 1 featureTags Vector()
+Connected Clients: activator-72a98227-93cc-4536-9867-8f95d2e39610
+Taking next connection to: 51388
+New client attempting to connect on port: 51390-51388
+  Address = /172.20.156.243:51388
+Handshake exception on socket: 51390
 sbt.impl.ipc.HandshakeException: Unable to perform handshake
 	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
 	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
@@ -23,15 +23,15 @@ Caused by: java.net.SocketException: Software caused connection abort: recv fail
 	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
 	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
 	... 2 more
-Taking next connection to: 49390
-New client attempting to connect on port: 49393-49390
-  Address = /192.168.2.102:49390
-This client on port 49393 has uuid 7a203aa7-70a6-4897-a5cf-a30cff98b273 configName activator humanReadableName Activator protocolVersion 1 featureTags Vector()
-Connected Clients: activator-f6a4c35c-a3ae-4eb2-abe1-703fb6012e52, activator-7a203aa7-70a6-4897-a5cf-a30cff98b273
-Taking next connection to: 49390
-New client attempting to connect on port: 49397-49390
-  Address = /192.168.2.102:49390
-Handshake exception on socket: 49397
+Taking next connection to: 51388
+New client attempting to connect on port: 51391-51388
+  Address = /172.20.156.243:51388
+This client on port 51391 has uuid 3577a2fd-432e-4553-a679-aba3fdadbc87 configName activator humanReadableName Activator protocolVersion 1 featureTags Vector()
+Connected Clients: activator-72a98227-93cc-4536-9867-8f95d2e39610, activator-3577a2fd-432e-4553-a679-aba3fdadbc87
+Taking next connection to: 51388
+New client attempting to connect on port: 51393-51388
+  Address = /172.20.156.243:51388
+Handshake exception on socket: 51393
 sbt.impl.ipc.HandshakeException: Unable to perform handshake
 	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
 	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
@@ -47,9 +47,9 @@ Caused by: java.net.SocketException: Software caused connection abort: recv fail
 	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
 	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
 	... 2 more
-Taking next connection to: 49390
-New client attempting to connect on port: 49398-49390
-  Address = /192.168.2.102:49390
-This client on port 49398 has uuid d9094f37-883a-4b99-bd13-456427ca8411 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
-Connected Clients: activator-7a203aa7-70a6-4897-a5cf-a30cff98b273, play-fork-run-d9094f37-883a-4b99-bd13-456427ca8411
-Taking next connection to: 49390
+Taking next connection to: 51388
+New client attempting to connect on port: 51394-51388
+  Address = /172.20.156.243:51388
+This client on port 51394 has uuid 64a1457e-eead-413b-8441-94c6c61d7aa0 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: activator-3577a2fd-432e-4553-a679-aba3fdadbc87, play-fork-run-64a1457e-eead-413b-8441-94c6c61d7aa0
+Taking next connection to: 51388
