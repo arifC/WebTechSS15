@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 New log file opened at Wed Apr 29 17:17:54 CEST 2015 by 3088@Felix-PC
 Taking next connection to: 54250
 New client attempting to connect on port: 54251-54250
@@ -8,6 +9,31 @@ Taking next connection to: 54250
 New client attempting to connect on port: 54252-54250
   Address = /141.37.200.59:54250
 Handshake exception on socket: 54252
+=======
+<<<<<<< HEAD
+New log file opened at Wed Apr 29 13:45:03 CEST 2015 by 3740@ArifCerit
+Taking next connection to: 51388
+New client attempting to connect on port: 51389-51388
+  Address = /172.20.156.243:51388
+This client on port 51389 has uuid 72a98227-93cc-4536-9867-8f95d2e39610 configName activator humanReadableName Activator protocolVersion 1 featureTags Vector()
+Connected Clients: activator-72a98227-93cc-4536-9867-8f95d2e39610
+Taking next connection to: 51388
+New client attempting to connect on port: 51390-51388
+  Address = /172.20.156.243:51388
+Handshake exception on socket: 51390
+=======
+New log file opened at Wed Apr 29 16:55:16 CEST 2015 by 6540@Felix-PC
+Taking next connection to: 52889
+New client attempting to connect on port: 52890-52889
+  Address = /141.37.200.59:52889
+This client on port 52890 has uuid 065a2169-546b-4a41-a8f9-beab03e195cc configName activator humanReadableName Activator protocolVersion 1 featureTags Vector()
+Connected Clients: activator-065a2169-546b-4a41-a8f9-beab03e195cc
+Taking next connection to: 52889
+New client attempting to connect on port: 52891-52889
+  Address = /141.37.200.59:52889
+Handshake exception on socket: 52891
+>>>>>>> origin/master
+>>>>>>> origin/master
 sbt.impl.ipc.HandshakeException: Unable to perform handshake
 	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
 	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
@@ -17,9 +43,45 @@ Caused by: java.io.EOFException
 	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
 	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
 	... 2 more
+<<<<<<< HEAD
 Taking next connection to: 54250
 New client attempting to connect on port: 54253-54250
   Address = /141.37.200.59:54250
 This client on port 54253 has uuid 1ceccba5-2717-4ecf-8a66-26f452153861 configName activator humanReadableName Activator protocolVersion 1 featureTags Vector()
 Connected Clients: activator-95c1f595-e864-4a71-a337-98ee69fe2e9c, activator-1ceccba5-2717-4ecf-8a66-26f452153861
 Taking next connection to: 54250
+=======
+<<<<<<< HEAD
+Taking next connection to: 51388
+New client attempting to connect on port: 51391-51388
+  Address = /172.20.156.243:51388
+This client on port 51391 has uuid 3577a2fd-432e-4553-a679-aba3fdadbc87 configName activator humanReadableName Activator protocolVersion 1 featureTags Vector()
+Connected Clients: activator-72a98227-93cc-4536-9867-8f95d2e39610, activator-3577a2fd-432e-4553-a679-aba3fdadbc87
+Taking next connection to: 51388
+New client attempting to connect on port: 51393-51388
+  Address = /172.20.156.243:51388
+Handshake exception on socket: 51393
+sbt.impl.ipc.HandshakeException: Unable to perform handshake
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
+	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
+	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
+Caused by: java.net.SocketException: Software caused connection abort: recv failed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.io.BufferedInputStream.fill(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at java.io.DataInputStream.readInt(Unknown Source)
+	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
+	... 2 more
+Taking next connection to: 51388
+New client attempting to connect on port: 51394-51388
+  Address = /172.20.156.243:51388
+This client on port 51394 has uuid 64a1457e-eead-413b-8441-94c6c61d7aa0 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: activator-3577a2fd-432e-4553-a679-aba3fdadbc87, play-fork-run-64a1457e-eead-413b-8441-94c6c61d7aa0
+Taking next connection to: 51388
+=======
+>>>>>>> origin/master
+>>>>>>> origin/master
