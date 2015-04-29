@@ -6,6 +6,7 @@
 GET        /                    controllers.Application.login()
 GET        /start               controllers.Application.start()
 GET        /help               controllers.Application.help()
+GET        /oberkoerper         controllers.Application.oberkoerper()
 
 # Map static resources from the /public folder to the /assets URL path
 GET        /assets/*file        controllers.Assets.at(path="/public", file)
