@@ -19,18 +19,21 @@
                         </div>
                     </form>
                 </div>
+                <div class="col-md-6">
+                    <img src="@routes.Assets.at("images/login_bild.jpg")" id="login_img_1"/>
+                </div>
                 <div role="tabpanel" class="tab-pane col-md-6" id="register">
                     <form method="get" action="/">
                         <div class="form-group">
                             <h3>Registrieren</h3>
                             <label for="name2">Benutzername</label>
-                            <input id="name2" class="form-control" type="text"/>
+                            <input id="name2" class="form-control" type="text" placeholder="Benutzername"/>
                             <label for="pass2">Passwort</label>
-                            <input id="pass3" class="form-control" type="password"/>
+                            <input id="pass3" class="form-control" type="password" placeholder="Passwort"/>
                             <label for="pass3">Passwort wiederholen</label>
-                            <input class="form-control" type="password" name="passwords"/>
+                            <input class="form-control" type="password" name="passwords" placeholder="Passwort wiederholen"/>
                             <label for="email">Email-Adresse</label>
-                            <input id="email" class="form-control" type="email" name="mail"/>
+                            <input id="email" class="form-control" type="email" name="mail" placeholder="E-Mail Adresse"/>
                             <br/>
                             <input type="submit" class="btn btn-primary" name="login" value="Registrieren"/>
                         </div>
