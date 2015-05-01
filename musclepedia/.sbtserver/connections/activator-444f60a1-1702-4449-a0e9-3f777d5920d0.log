@@ -1,0 +1,60 @@
+New log file opened at Thu Apr 30 11:44:58 CEST 2015 by 4156@Felix-PC
+Sending msg to client activator-444f60a1-1702-4449-a0e9-3f777d5920d0: DetachedLogEvent(LogMessage(debug,sbt server socket logs are in: D:\WebTechSS15\musclepedia\.sbtserver\connections\master.log))
+Sending msg to client activator-444f60a1-1702-4449-a0e9-3f777d5920d0: DetachedLogEvent(LogMessage(debug,sbt client logs are in: D:\WebTechSS15\musclepedia\.sbtserver\connections\activator-444f60a1-1702-4449-a0e9-3f777d5920d0.log))
+Reading next message from client.
+Sending msg to client activator-444f60a1-1702-4449-a0e9-3f777d5920d0: DetachedLogEvent(LogMessage(debug,sbt general server logs are in: D:\WebTechSS15\musclepedia\.sbtserver\master.log))
+Got request: ListenToEvents()
+Reading next message from client.
+Sending msg to client activator-444f60a1-1702-4449-a0e9-3f777d5920d0: DetachedLogEvent(LogMessage(debug,> --initialize))
+Sending msg to client activator-444f60a1-1702-4449-a0e9-3f777d5920d0: DetachedLogEvent(LogMessage(debug,> initialize))
+Sending msg to client activator-444f60a1-1702-4449-a0e9-3f777d5920d0: DetachedLogEvent(LogMessage(debug,> onFailure load-failed))
+Sending msg to client activator-444f60a1-1702-4449-a0e9-3f777d5920d0: DetachedLogEvent(LogMessage(debug,> boot))
+Sending msg to client activator-444f60a1-1702-4449-a0e9-3f777d5920d0: DetachedLogEvent(LogMessage(debug,> reload))
+Sending msg to client activator-444f60a1-1702-4449-a0e9-3f777d5920d0: DetachedLogEvent(LogMessage(debug,[Loading] Scanning directory D:\WebTechSS15\musclepedia\project))
+Got request: ListenToBuildChange()
+Reading next message from client.
+Got request: SendSyntheticBuildChanged()
+Reading next message from client.
+Sending msg to client activator-444f60a1-1702-4449-a0e9-3f777d5920d0: (3,ReceivedResponse())
+Got request: KeyLookupRequest(discoveredMainClasses)
+Reading next message from client.
+Got request: KeyLookupRequest(mainClass)
+Reading next message from client.
+Got request: KeyLookupRequest(echo:echoTraceSupported)
+Reading next message from client.
+Got request: KeyLookupRequest(echo:echoPlayVersionReport)
+Reading next message from client.
+Got request: KeyLookupRequest(echo:echoAkkaVersionReport)
+Reading next message from client.
+Got request: KeyLookupRequest(echo:echoTracePlayVersion)
+Reading next message from client.
+Sending msg to client activator-444f60a1-1702-4449-a0e9-3f777d5920d0: DetachedLogEvent(LogMessage(debug,[Loading] Found non-root projects ))
+Sending msg to client activator-444f60a1-1702-4449-a0e9-3f777d5920d0: DetachedLogEvent(LogMessage(debug,[Loading] Done in D:\WebTechSS15\musclepedia\project, returning: ()))
+Sending msg to client activator-444f60a1-1702-4449-a0e9-3f777d5920d0: DetachedLogEvent(LogMessage(debug,deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))))))
+Sending msg to client activator-444f60a1-1702-4449-a0e9-3f777d5920d0: DetachedLogEvent(LogMessage(debug,  :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.JUnitXmlReportPlugin)))
+Sending msg to client activator-444f60a1-1702-4449-a0e9-3f777d5920d0: DetachedLogEvent(LogMessage(debug,sorting: ns: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)))
+Sending msg to client activator-444f60a1-1702-4449-a0e9-3f777d5920d0: DetachedLogEvent(LogMessage(debug,  :: sorting:: found: List(sbt.plugins.CorePlugin) not found List(sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)))
+Sending msg to client activator-444f60a1-1702-4449-a0e9-3f777d5920d0: DetachedLogEvent(LogMessage(debug,  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin) not found List(sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)))
+Sending msg to client activator-444f60a1-1702-4449-a0e9-3f777d5920d0: DetachedLogEvent(LogMessage(debug,  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin) not found List(sbt.plugins.JUnitXmlReportPlugin)))
+Sending msg to client activator-444f60a1-1702-4449-a0e9-3f777d5920d0: DetachedLogEvent(LogMessage(debug,  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin) not found List()))
+Sending msg to client activator-444f60a1-1702-4449-a0e9-3f777d5920d0: DetachedLogEvent(LogMessage(debug,  :: sorted deduced result: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)))
+Sending msg to client activator-444f60a1-1702-4449-a0e9-3f777d5920d0: DetachedLogEvent(LogMessage(debug,[Loading] Done in D:\WebTechSS15\musclepedia\project, returning: (musclepedia-build)))
+Got request: UnlistenToEvents()
+Reading next message from client.
+Sending msg to client activator-444f60a1-1702-4449-a0e9-3f777d5920d0: (12,ReceivedResponse())
+Got request: UnlistenToBuildChange()
+Reading next message from client.
+Client activator-444f60a1-1702-4449-a0e9-3f777d5920d0 EOF, shutting down.
+Stopping client.
+Dropping message (0,ReceivedResponse()) to dead client activator-444f60a1-1702-4449-a0e9-3f777d5920d0
+Client activator-444f60a1-1702-4449-a0e9-3f777d5920d0 thread exiting.
+Dropping message (4,ReceivedResponse()) to dead client activator-444f60a1-1702-4449-a0e9-3f777d5920d0
+Dropping message BuildStructureChanged(MinimalBuildStructure(Vector(file:/D:/WebTechSS15/musclepedia/),Vector(MinimalProjectStructure(ProjectReference(file:/D:/WebTechSS15/musclepedia/,root),Vector(sbt.plugins.CorePlugin, com.typesafe.sbt.web.SbtWeb, sbt.plugins.InteractionServicePlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.IvyPlugin, com.typesafe.sbt.webdriver.SbtWebDriver, com.typesafe.sbt.jse.SbtJsEngine, com.typesafe.sbt.digest.SbtDigest, sbt.plugins.JvmPlugin, com.typesafe.sbt.jse.SbtJsTask, play.twirl.sbt.SbtTwirl, com.typesafe.sbt.jshint.SbtJSHint, sbt.plugins.JUnitXmlReportPlugin, com.typesafe.sbt.mocha.SbtMocha, com.typesafe.sbt.less.SbtLess, com.typesafe.sbt.rjs.SbtRjs, com.typesafe.sbt.coffeescript.SbtCoffeeScript, sbt.plugins.BackgroundRunPlugin, play.Play, play.PlayJava, play.sbt.forkrun.PlayForkRun))))) to dead client activator-444f60a1-1702-4449-a0e9-3f777d5920d0
+Dropping message (6,KeyLookupResponse(discoveredMainClasses,Vector(AttributeKey[scala.collection.Seq[java.lang.String]]("discoveredMainClasses") in Scope(Build: file:/D:/WebTechSS15/musclepedia/, , Project: ProjectReference(file:/D:/WebTechSS15/musclepedia/,root), Config: compile)))) to dead client activator-444f60a1-1702-4449-a0e9-3f777d5920d0
+Dropping message (7,KeyLookupResponse(mainClass,Vector(AttributeKey[scala.Option[java.lang.String]]("mainClass") in Scope(Build: file:/D:/WebTechSS15/musclepedia/, , Project: ProjectReference(file:/D:/WebTechSS15/musclepedia/,root), Config: compile)))) to dead client activator-444f60a1-1702-4449-a0e9-3f777d5920d0
+Dropping message (8,KeyLookupResponse(echo:echoTraceSupported,Vector())) to dead client activator-444f60a1-1702-4449-a0e9-3f777d5920d0
+Dropping message (9,KeyLookupResponse(echo:echoPlayVersionReport,Vector())) to dead client activator-444f60a1-1702-4449-a0e9-3f777d5920d0
+Dropping message (10,KeyLookupResponse(echo:echoAkkaVersionReport,Vector())) to dead client activator-444f60a1-1702-4449-a0e9-3f777d5920d0
+Dropping message (11,KeyLookupResponse(echo:echoTracePlayVersion,Vector())) to dead client activator-444f60a1-1702-4449-a0e9-3f777d5920d0
+Dropping message (13,ReceivedResponse()) to dead client activator-444f60a1-1702-4449-a0e9-3f777d5920d0
+Dropping message BuildStructureChanged(MinimalBuildStructure(Vector(file:/D:/WebTechSS15/musclepedia/),Vector(MinimalProjectStructure(ProjectReference(file:/D:/WebTechSS15/musclepedia/,root),Vector(sbt.plugins.CorePlugin, com.typesafe.sbt.web.SbtWeb, sbt.plugins.InteractionServicePlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.IvyPlugin, com.typesafe.sbt.webdriver.SbtWebDriver, com.typesafe.sbt.jse.SbtJsEngine, com.typesafe.sbt.digest.SbtDigest, sbt.plugins.JvmPlugin, com.typesafe.sbt.jse.SbtJsTask, play.twirl.sbt.SbtTwirl, com.typesafe.sbt.jshint.SbtJSHint, sbt.plugins.JUnitXmlReportPlugin, com.typesafe.sbt.mocha.SbtMocha, com.typesafe.sbt.less.SbtLess, com.typesafe.sbt.rjs.SbtRjs, com.typesafe.sbt.coffeescript.SbtCoffeeScript, sbt.plugins.BackgroundRunPlugin, play.Play, play.PlayJava, play.sbt.forkrun.PlayForkRun))))) to dead client activator-444f60a1-1702-4449-a0e9-3f777d5920d0
