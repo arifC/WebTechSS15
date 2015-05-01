@@ -1,7 +1,8 @@
-function bmi(){
-    var gewicht= document.getElementById("gewicht").value;
-    var groeße= document.getElementById("groeße").value;
-   // var geschlecht= document.getElementById("gesch").options[document.getElementById("gesch").selectedIndex].text;
+function bmirechnen(){
+    alert("FNF");
+    var gewicht= 90;
+    var groeße= 1,90;
+    // var geschlecht= document.getElementById("gesch").options[document.getElementById("gesch").selectedIndex].text;
     var geschlecht = "männlich";
     alert(gewicht);
     if(groeße > 2.5 || gewicht < 30 || gewicht > 300){
@@ -21,7 +22,7 @@ function bmi(){
                 break;
             case bmi<=40&&bmi>31:
                 alert("Adipositas");
-                    break;
+                break;
             case bmi>40:
                 alert("Hochgradige Adipositas");
                 break;

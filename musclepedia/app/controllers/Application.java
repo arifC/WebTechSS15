@@ -25,5 +25,9 @@ public class Application extends Controller {
         return ok(oberkoerper.render());
     }
 
+    public static Result studios(){return ok(studios.render());}
+
+    public static Result knStudio(){return ok(knStudios.render());}
+
 
 }
