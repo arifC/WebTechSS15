@@ -203,3 +203,25 @@ All initially invalidated sources: Set()
 Total time: 2 s, completed 01.05.2015 15:04:23
 > server-post-command-cleanup
 > server-handle-next-server-request
+> root/compile:discoveredMainClasses
+Evaluating tasks: compile:discoveredMainClasses
+Running task... Cancel: sbt.server.ServerTaskCancellation@742df256, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 2 s, completed 01.05.2015 15:08:07
+> server-post-command-cleanup
+> server-handle-next-server-request
