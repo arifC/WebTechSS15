@@ -29,3 +29,9 @@ New client attempting to connect on port: 61562-61559
 This client on port 61562 has uuid 7be4cf25-a4b7-4cd5-8b93-7f6b32fba5f3 configName activator humanReadableName Activator protocolVersion 1 featureTags Vector()
 Connected Clients: activator-4d14227c-bbee-4591-b917-09eb9bcd7d85, activator-7be4cf25-a4b7-4cd5-8b93-7f6b32fba5f3
 Taking next connection to: 61559
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 61559
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 61559
