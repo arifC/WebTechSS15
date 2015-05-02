@@ -1,13 +1,13 @@
-New log file opened at Fri May 01 18:56:17 CEST 2015 by 5756@Felix-PC
-Taking next connection to: 52750
-New client attempting to connect on port: 52754-52750
-  Address = /192.168.178.33:52750
-This client on port 52754 has uuid 56c3a132-d24e-40d9-9152-396b9a8fecc5 configName activator humanReadableName Activator protocolVersion 1 featureTags Vector()
-Connected Clients: activator-56c3a132-d24e-40d9-9152-396b9a8fecc5
-Taking next connection to: 52750
-New client attempting to connect on port: 52755-52750
-  Address = /192.168.178.33:52750
-Handshake exception on socket: 52755
+New log file opened at Sat May 02 20:38:38 CEST 2015 by 2752@Felix-PC
+Taking next connection to: 49506
+New client attempting to connect on port: 49513-49506
+  Address = /192.168.178.33:49506
+This client on port 49513 has uuid dda06fbc-939d-42c9-8657-5998717df780 configName activator humanReadableName Activator protocolVersion 1 featureTags Vector()
+Connected Clients: activator-dda06fbc-939d-42c9-8657-5998717df780
+Taking next connection to: 49506
+New client attempting to connect on port: 49515-49506
+  Address = /192.168.178.33:49506
+Handshake exception on socket: 49515
 sbt.impl.ipc.HandshakeException: Unable to perform handshake
 	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
 	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
@@ -22,15 +22,15 @@ Caused by: java.net.SocketException: Software caused connection abort: recv fail
 	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
 	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
 	... 2 more
-Taking next connection to: 52750
-New client attempting to connect on port: 52756-52750
-  Address = /192.168.178.33:52750
-This client on port 52756 has uuid 2c834c8e-978b-490a-affe-141cf2c3c28d configName activator humanReadableName Activator protocolVersion 1 featureTags Vector()
-Connected Clients: activator-56c3a132-d24e-40d9-9152-396b9a8fecc5, activator-2c834c8e-978b-490a-affe-141cf2c3c28d
-Taking next connection to: 52750
-New client attempting to connect on port: 52977-52750
-  Address = /192.168.178.33:52750
-Handshake exception on socket: 52977
+Taking next connection to: 49506
+New client attempting to connect on port: 49516-49506
+  Address = /192.168.178.33:49506
+This client on port 49516 has uuid 93f84cf2-9e6a-48cb-a420-a57e5535aeb5 configName activator humanReadableName Activator protocolVersion 1 featureTags Vector()
+Connected Clients: activator-dda06fbc-939d-42c9-8657-5998717df780, activator-93f84cf2-9e6a-48cb-a420-a57e5535aeb5
+Taking next connection to: 49506
+New client attempting to connect on port: 49740-49506
+  Address = /192.168.178.33:49506
+Handshake exception on socket: 49740
 sbt.impl.ipc.HandshakeException: Unable to perform handshake
 	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
 	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
@@ -45,15 +45,9 @@ Caused by: java.net.SocketException: Software caused connection abort: recv fail
 	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
 	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
 	... 2 more
-Taking next connection to: 52750
-New client attempting to connect on port: 52979-52750
-  Address = /192.168.178.33:52750
-This client on port 52979 has uuid 969a3922-d7aa-4cac-b234-7a2511baa12c configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
-Connected Clients: activator-2c834c8e-978b-490a-affe-141cf2c3c28d, play-fork-run-969a3922-d7aa-4cac-b234-7a2511baa12c
-Taking next connection to: 52750
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 52750
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 52750
+Taking next connection to: 49506
+New client attempting to connect on port: 49741-49506
+  Address = /192.168.178.33:49506
+This client on port 49741 has uuid 9613a585-b887-49eb-bcbc-9e1d28e302d8 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: activator-93f84cf2-9e6a-48cb-a420-a57e5535aeb5, play-fork-run-9613a585-b887-49eb-bcbc-9e1d28e302d8
+Taking next connection to: 49506
