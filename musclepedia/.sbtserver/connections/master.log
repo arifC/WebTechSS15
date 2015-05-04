@@ -56,3 +56,12 @@ New client attempting to connect on port: 65099-64979
 This client on port 65099 has uuid d26b97a5-5ba4-42d9-af65-3a2dffb39f85 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
 Connected Clients: activator-0be200b6-d6c9-4a34-bc89-704e5b185aee, play-fork-run-d26b97a5-5ba4-42d9-af65-3a2dffb39f85
 Taking next connection to: 64979
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 64979
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 64979
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 64979
