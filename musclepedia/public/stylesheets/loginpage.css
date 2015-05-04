@@ -4,13 +4,3 @@ body{
 #login_img{
     background-image: url("../images/login_background.jpg");
 }
-
-.container {
-    width: 200px;
-    height: 150px;
-}
-
-.container img{
-    width: 100%;
-    height: auto;
-}

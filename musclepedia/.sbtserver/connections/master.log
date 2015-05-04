@@ -1,19 +1,20 @@
-New log file opened at Sat May 02 20:38:38 CEST 2015 by 2752@Felix-PC
-Taking next connection to: 49506
-New client attempting to connect on port: 49513-49506
-  Address = /192.168.178.33:49506
-This client on port 49513 has uuid dda06fbc-939d-42c9-8657-5998717df780 configName activator humanReadableName Activator protocolVersion 1 featureTags Vector()
-Connected Clients: activator-dda06fbc-939d-42c9-8657-5998717df780
-Taking next connection to: 49506
-New client attempting to connect on port: 49515-49506
-  Address = /192.168.178.33:49506
-Handshake exception on socket: 49515
+New log file opened at Mon May 04 13:52:21 CEST 2015 by 8796@ArifCerit
+Taking next connection to: 64979
+New client attempting to connect on port: 64980-64979
+  Address = /172.20.141.83:64979
+This client on port 64980 has uuid 79554107-79a5-4e64-ae7c-361b4b34a5e5 configName activator humanReadableName Activator protocolVersion 1 featureTags Vector()
+Connected Clients: activator-79554107-79a5-4e64-ae7c-361b4b34a5e5
+Taking next connection to: 64979
+New client attempting to connect on port: 64981-64979
+  Address = /172.20.141.83:64979
+Handshake exception on socket: 64981
 sbt.impl.ipc.HandshakeException: Unable to perform handshake
 	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
 	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
 	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
 Caused by: java.net.SocketException: Software caused connection abort: recv failed
 	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(Unknown Source)
 	at java.net.SocketInputStream.read(Unknown Source)
 	at java.net.SocketInputStream.read(Unknown Source)
 	at java.io.BufferedInputStream.fill(Unknown Source)
@@ -22,21 +23,25 @@ Caused by: java.net.SocketException: Software caused connection abort: recv fail
 	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
 	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
 	... 2 more
-Taking next connection to: 49506
-New client attempting to connect on port: 49516-49506
-  Address = /192.168.178.33:49506
-This client on port 49516 has uuid 93f84cf2-9e6a-48cb-a420-a57e5535aeb5 configName activator humanReadableName Activator protocolVersion 1 featureTags Vector()
-Connected Clients: activator-dda06fbc-939d-42c9-8657-5998717df780, activator-93f84cf2-9e6a-48cb-a420-a57e5535aeb5
-Taking next connection to: 49506
-New client attempting to connect on port: 49740-49506
-  Address = /192.168.178.33:49506
-Handshake exception on socket: 49740
+Taking next connection to: 64979
+New client attempting to connect on port: 64982-64979
+  Address = /172.20.141.83:64979
+This client on port 64982 has uuid 0be200b6-d6c9-4a34-bc89-704e5b185aee configName activator humanReadableName Activator protocolVersion 1 featureTags Vector()
+Connected Clients: activator-79554107-79a5-4e64-ae7c-361b4b34a5e5, activator-0be200b6-d6c9-4a34-bc89-704e5b185aee
+Taking next connection to: 64979
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 64979
+New client attempting to connect on port: 65098-64979
+  Address = /172.20.141.83:64979
+Handshake exception on socket: 65098
 sbt.impl.ipc.HandshakeException: Unable to perform handshake
 	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
 	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
 	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
 Caused by: java.net.SocketException: Software caused connection abort: recv failed
 	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(Unknown Source)
 	at java.net.SocketInputStream.read(Unknown Source)
 	at java.net.SocketInputStream.read(Unknown Source)
 	at java.io.BufferedInputStream.fill(Unknown Source)
@@ -45,9 +50,9 @@ Caused by: java.net.SocketException: Software caused connection abort: recv fail
 	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
 	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
 	... 2 more
-Taking next connection to: 49506
-New client attempting to connect on port: 49741-49506
-  Address = /192.168.178.33:49506
-This client on port 49741 has uuid 9613a585-b887-49eb-bcbc-9e1d28e302d8 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
-Connected Clients: activator-93f84cf2-9e6a-48cb-a420-a57e5535aeb5, play-fork-run-9613a585-b887-49eb-bcbc-9e1d28e302d8
-Taking next connection to: 49506
+Taking next connection to: 64979
+New client attempting to connect on port: 65099-64979
+  Address = /172.20.141.83:64979
+This client on port 65099 has uuid d26b97a5-5ba4-42d9-af65-3a2dffb39f85 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: activator-0be200b6-d6c9-4a34-bc89-704e5b185aee, play-fork-run-d26b97a5-5ba4-42d9-af65-3a2dffb39f85
+Taking next connection to: 64979

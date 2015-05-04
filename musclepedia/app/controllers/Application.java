@@ -16,20 +16,20 @@ public class Application extends Controller {
     public static Result help() {return ok(help.render());
     }
 
-    public static Result oberkoerper() {return ok(oberkoerper.render());
+    public static Result oberkoerper() {return ok(uebungen_oberkoerper.render());
     }
 
     public static Result studios(){return ok(studios.render());}
 
     public static Result knStudio(){return ok(knStudios.render());}
 
-    public static Result arme() {return ok(arme.render());
+    public static Result arme() {return ok(uebungen_arme.render());
     }
 
-    public static Result beine() {return ok(beine.render());
+    public static Result beine() {return ok(uebungen_beine.render());
     }
 
-    public static Result bauch() {return ok(bauch.render());
+    public static Result bauch() {return ok(uebungen_bauch.render());
     }
 
 
