@@ -35,6 +35,8 @@ public class Application extends Controller {
     }
     public static Result kontakt(){return ok(kontakt.render());
     }
+    public static Result profil(){return ok(profil.render());
+    }
 
 
 
