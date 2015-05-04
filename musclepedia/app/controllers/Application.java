@@ -31,6 +31,11 @@ public class Application extends Controller {
 
     public static Result bauch() {return ok(uebungen_bauch.render());
     }
+    public static Result impress() {return ok(impressum.render());
+    }
+    public static Result kontakt(){return ok(kontakt.render());
+    }
+
 
 
 }

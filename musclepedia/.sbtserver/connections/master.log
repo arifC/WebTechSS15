@@ -1,67 +1,34 @@
-New log file opened at Mon May 04 13:52:21 CEST 2015 by 8796@ArifCerit
-Taking next connection to: 64979
-New client attempting to connect on port: 64980-64979
-  Address = /172.20.141.83:64979
-This client on port 64980 has uuid 79554107-79a5-4e64-ae7c-361b4b34a5e5 configName activator humanReadableName Activator protocolVersion 1 featureTags Vector()
-Connected Clients: activator-79554107-79a5-4e64-ae7c-361b4b34a5e5
-Taking next connection to: 64979
-New client attempting to connect on port: 64981-64979
-  Address = /172.20.141.83:64979
-Handshake exception on socket: 64981
+New log file opened at Mon May 04 20:09:38 CEST 2015 by 2720@SARÖ
+Taking next connection to: 65317
+New client attempting to connect on port: 65319-65317
+  Address = /192.168.2.100:65317
+This client on port 65319 has uuid a4190593-e3a8-491c-af1b-6ca58a165206 configName activator humanReadableName Activator protocolVersion 1 featureTags Vector()
+Connected Clients: activator-a4190593-e3a8-491c-af1b-6ca58a165206
+Taking next connection to: 65317
+New client attempting to connect on port: 65347-65317
+  Address = /192.168.2.100:65317
+Handshake exception on socket: 65347
 sbt.impl.ipc.HandshakeException: Unable to perform handshake
 	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
 	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
 	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
-Caused by: java.net.SocketException: Software caused connection abort: recv failed
-	at java.net.SocketInputStream.socketRead0(Native Method)
-	at java.net.SocketInputStream.socketRead(Unknown Source)
-	at java.net.SocketInputStream.read(Unknown Source)
-	at java.net.SocketInputStream.read(Unknown Source)
-	at java.io.BufferedInputStream.fill(Unknown Source)
-	at java.io.BufferedInputStream.read(Unknown Source)
+Caused by: java.io.EOFException
 	at java.io.DataInputStream.readInt(Unknown Source)
 	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
 	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
 	... 2 more
-Taking next connection to: 64979
-New client attempting to connect on port: 64982-64979
-  Address = /172.20.141.83:64979
-This client on port 64982 has uuid 0be200b6-d6c9-4a34-bc89-704e5b185aee configName activator humanReadableName Activator protocolVersion 1 featureTags Vector()
-Connected Clients: activator-79554107-79a5-4e64-ae7c-361b4b34a5e5, activator-0be200b6-d6c9-4a34-bc89-704e5b185aee
-Taking next connection to: 64979
+Taking next connection to: 65317
+New client attempting to connect on port: 65349-65317
+  Address = /192.168.2.100:65317
+This client on port 65349 has uuid 0da96614-3a35-4358-a1f6-9163655b7394 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: activator-a4190593-e3a8-491c-af1b-6ca58a165206, play-fork-run-0da96614-3a35-4358-a1f6-9163655b7394
+Taking next connection to: 65317
 Checking to see if clients are empty...
 We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 64979
-New client attempting to connect on port: 65098-64979
-  Address = /172.20.141.83:64979
-Handshake exception on socket: 65098
-sbt.impl.ipc.HandshakeException: Unable to perform handshake
-	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
-	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
-	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
-Caused by: java.net.SocketException: Software caused connection abort: recv failed
-	at java.net.SocketInputStream.socketRead0(Native Method)
-	at java.net.SocketInputStream.socketRead(Unknown Source)
-	at java.net.SocketInputStream.read(Unknown Source)
-	at java.net.SocketInputStream.read(Unknown Source)
-	at java.io.BufferedInputStream.fill(Unknown Source)
-	at java.io.BufferedInputStream.read(Unknown Source)
-	at java.io.DataInputStream.readInt(Unknown Source)
-	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
-	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
-	... 2 more
-Taking next connection to: 64979
-New client attempting to connect on port: 65099-64979
-  Address = /172.20.141.83:64979
-This client on port 65099 has uuid d26b97a5-5ba4-42d9-af65-3a2dffb39f85 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
-Connected Clients: activator-0be200b6-d6c9-4a34-bc89-704e5b185aee, play-fork-run-d26b97a5-5ba4-42d9-af65-3a2dffb39f85
-Taking next connection to: 64979
+Taking next connection to: 65317
 Checking to see if clients are empty...
 We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 64979
+Taking next connection to: 65317
 Checking to see if clients are empty...
 We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 64979
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 64979
+Taking next connection to: 65317
