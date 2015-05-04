@@ -1,49 +1,40 @@
-New log file opened at Mon May 04 20:09:38 CEST 2015 by 2720@SARÖ
-Taking next connection to: 65317
-New client attempting to connect on port: 65319-65317
-  Address = /192.168.2.100:65317
-This client on port 65319 has uuid a4190593-e3a8-491c-af1b-6ca58a165206 configName activator humanReadableName Activator protocolVersion 1 featureTags Vector()
-Connected Clients: activator-a4190593-e3a8-491c-af1b-6ca58a165206
-Taking next connection to: 65317
-New client attempting to connect on port: 65347-65317
-  Address = /192.168.2.100:65317
-Handshake exception on socket: 65347
+New log file opened at Mon May 04 22:54:04 CEST 2015 by 2356@ArifCerit
+Taking next connection to: 50159
+New client attempting to connect on port: 50160-50159
+  Address = /192.168.2.102:50159
+This client on port 50160 has uuid d64afc33-214f-408b-8bbd-dd833668e68c configName activator humanReadableName Activator protocolVersion 1 featureTags Vector()
+Connected Clients: activator-d64afc33-214f-408b-8bbd-dd833668e68c
+Taking next connection to: 50159
+New client attempting to connect on port: 50165-50159
+  Address = /192.168.2.102:50159
+Handshake exception on socket: 50165
 sbt.impl.ipc.HandshakeException: Unable to perform handshake
 	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
 	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
 	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
-Caused by: java.io.EOFException
+Caused by: java.net.SocketException: Software caused connection abort: recv failed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.io.BufferedInputStream.fill(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
 	at java.io.DataInputStream.readInt(Unknown Source)
 	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
 	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
 	... 2 more
-Taking next connection to: 65317
-New client attempting to connect on port: 65349-65317
-  Address = /192.168.2.100:65317
-This client on port 65349 has uuid 0da96614-3a35-4358-a1f6-9163655b7394 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
-Connected Clients: activator-a4190593-e3a8-491c-af1b-6ca58a165206, play-fork-run-0da96614-3a35-4358-a1f6-9163655b7394
-Taking next connection to: 65317
+Taking next connection to: 50159
+New client attempting to connect on port: 50166-50159
+  Address = /192.168.2.102:50159
+This client on port 50166 has uuid e0716386-946d-420e-ab25-a8a3dcea879f configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: activator-d64afc33-214f-408b-8bbd-dd833668e68c, play-fork-run-e0716386-946d-420e-ab25-a8a3dcea879f
+Taking next connection to: 50159
 Checking to see if clients are empty...
 We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 65317
+Taking next connection to: 50159
 Checking to see if clients are empty...
 We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 65317
+Taking next connection to: 50159
 Checking to see if clients are empty...
 We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 65317
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 65317
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 65317
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 65317
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 65317
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 65317
+Taking next connection to: 50159
