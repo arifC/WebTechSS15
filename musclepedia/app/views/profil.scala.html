@@ -1,24 +1,54 @@
-@start("Muscelpedia/Profil"){
-    <div class="row text-center">
-        <div class="col-md-8" id="profil">
-        <table border="3" id="profildaten" class="table-striped">
-            <tr>
-                <td>Benutzername </td>
-                <td> aktueller name aus dem Objekt</td>
-                <td><button class="btn btn-primary">�ndern</button> </td>
-            </tr>
-            <tr>
-                <td>Passwort</td>
-                <td>Hier sollte nichts stehen meiner Meinung nach</td>
-                <td><button class="btn btn-primary">�ndern</button> </td>
-            </tr>
-            <tr>
-                <td>E-mail</td>
-                <td>aktuelle Email des Objekts</td>
-                <td><button class="btn btn-primary">�ndern</button> </td>
-            </tr>
 
-        </table>
+
+@start("Musclepedia"){
+    <div class="col-md-8">
+        <ul class="nav nav-tabs">
+            <li class><a href="/start">Home</a></li>
+            <li class="dropdown" >
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Übungen<span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu">
+                    <li role="presentation"> <a href="/uebungen_oberkoerper"> Oberkörper</a> </li>
+                    <li role="presentation"> <a role="menuitem" tabindex="-1" href="/uebungen_arme"> Arme </a></li>
+                    <li role="presentation"> <a role="menuitem" tabindex="-1" href="/uebungen_beine"> Beine </a></li>
+                    <li role="presentation"> <a role="menuitem" tabindex="-1" href="/uebungen_bauch"> Bauch </a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pläne <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li> <a>Anfänger</a></li>
+                    <li> <a>Fortgeschritten </a></li>
+                    <li> <a>Profis </a></li>
+                </ul>
+            </li>
+            <li role="presentation" class="active"><a href="/profil">Profil</a></li>
+            <li role="presentation" class><a href="/studios">Studios</a></li>
+            <li role="presentation" class><a href="/help">Hilfe</a></li>
+            <li role="presentation" class><a href="/">Logout</a></li>
+        </ul>
+        <br>
+        <div role="tabpanel" class="tab-pane">
+            <div class="row text-center">
+                <div class="col-md-8" id="profil">
+                    <table border="3" id="profildaten" class="table-striped">
+                        <tr>
+                            <td>Benutzername </td>
+                            <td> aktueller name aus dem Objekt</td>
+                            <td><button class="btn btn-primary">Ändern</button> </td>
+                        </tr>
+                        <tr>
+                            <td>Passwort</td>
+                            <td>Hier sollte nichts stehen meiner Meinung nach</td>
+                            <td><button class="btn btn-primary">Ändern</button> </td>
+                        </tr>
+                        <tr>
+                            <td>E-mail</td>
+                            <td>aktuelle Email des Objekts</td>
+                            <td><button class="btn btn-primary">Ändern</button> </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
         </div>
     </div>
 }
