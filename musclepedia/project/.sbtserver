@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 #Server Startup at 2015-05-06T14:08+0000
 #Wed May 06 16:08:47 CEST 2015
 server.uri=http\://0.0.0.0\:53186
+=======
+#Server Startup at 2015-05-05T09:17+0000
+#Tue May 05 11:17:16 CEST 2015
+server.uri=http\://0.0.0.0\:51232
+>>>>>>> origin/master

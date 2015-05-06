@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 New log file opened at Wed May 06 16:08:47 CEST 2015 by 912@ArifCerit
 Taking next connection to: 53186
 New client attempting to connect on port: 53187-53186
@@ -8,13 +9,24 @@ Taking next connection to: 53186
 New client attempting to connect on port: 53188-53186
   Address = /172.20.143.168:53186
 Handshake exception on socket: 53188
+=======
+New log file opened at Tue May 05 11:17:15 CEST 2015 by 4928@Felix-PC
+Taking next connection to: 51232
+New client attempting to connect on port: 51240-51232
+  Address = /192.168.0.15:51232
+This client on port 51240 has uuid 7471fff7-0029-445e-895a-765ee9184ab6 configName activator humanReadableName Activator protocolVersion 1 featureTags Vector()
+Connected Clients: activator-7471fff7-0029-445e-895a-765ee9184ab6
+Taking next connection to: 51232
+New client attempting to connect on port: 51242-51232
+  Address = /192.168.0.15:51232
+Handshake exception on socket: 51242
+>>>>>>> origin/master
 sbt.impl.ipc.HandshakeException: Unable to perform handshake
 	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
 	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
 	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
 Caused by: java.net.SocketException: Software caused connection abort: recv failed
 	at java.net.SocketInputStream.socketRead0(Native Method)
-	at java.net.SocketInputStream.socketRead(Unknown Source)
 	at java.net.SocketInputStream.read(Unknown Source)
 	at java.net.SocketInputStream.read(Unknown Source)
 	at java.io.BufferedInputStream.fill(Unknown Source)
@@ -23,6 +35,7 @@ Caused by: java.net.SocketException: Software caused connection abort: recv fail
 	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
 	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
 	... 2 more
+<<<<<<< HEAD
 Taking next connection to: 53186
 New client attempting to connect on port: 53189-53186
   Address = /172.20.143.168:53186
@@ -86,3 +99,5 @@ Taking next connection to: 53186
 Checking to see if clients are empty...
 We have 1 non-daemon clients, continuing serving connections.
 Taking next connection to: 53186
+=======
+>>>>>>> origin/master
