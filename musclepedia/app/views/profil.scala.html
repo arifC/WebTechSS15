@@ -34,21 +34,23 @@
                         <tr>
                             <td>Benutzername </td>
                             <td> aktueller name aus dem Objekt</td>
-                            <td><button class="btn btn-primary">Ändern</button> </td>
-                        </tr>
-                        <tr>
-                            <td>Passwort</td>
-                            <td>Hier sollte nichts stehen meiner Meinung nach</td>
-                            <td><button class="btn btn-primary">Ändern</button> </td>
                         </tr>
                         <tr>
                             <td>E-mail</td>
                             <td>aktuelle Email des Objekts</td>
-                            <td><button class="btn btn-primary">Ändern</button> </td>
                         </tr>
                     </table>
                 </div>
             </div>
         </div>
+
+        <form method="post">
+            <p> Altes Passwort:     <input type="password" id="pwalt"></p>
+            <p> Neues Passwort:     <input type="password" id="pwneu"></p>
+            <p> Passwort wiederholen<input type="password" id="pwwieder"></p>
+            <button>Passwort ändern </button>
+            <p>Neue Email: <input type="email"> <button> Email ändern</button>  </p>
+
+        </form>
     </div>
 }
