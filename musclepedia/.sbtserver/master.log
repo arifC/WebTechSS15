@@ -1224,3 +1224,28 @@ Copy resource mappings:
 Total time: 5 s, completed 08.05.2015 16:40:16
 > server-post-command-cleanup
 > server-handle-next-server-request
+> {file:/C:/Users/ArifC/Desktop/STUDIUM/Semester%204/WebTech/WebTechSS15/musclepedia/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@5b3259c4, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	(C:\Users\ArifC\Desktop\STUDIUM\Semester 4\WebTech\WebTechSS15\musclepedia\conf\application.conf,C:\Users\ArifC\Desktop\STUDIUM\Semester 4\WebTech\WebTechSS15\musclepedia\target\scala-2.11\classes\application.conf)
+	(C:\Users\ArifC\Desktop\STUDIUM\Semester 4\WebTech\WebTechSS15\musclepedia\conf\routes,C:\Users\ArifC\Desktop\STUDIUM\Semester 4\WebTech\WebTechSS15\musclepedia\target\scala-2.11\classes\routes)
+Total time: 3 s, completed 08.05.2015 16:45:09
+> server-post-command-cleanup
+> server-handle-next-server-request
