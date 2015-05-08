@@ -7,12 +7,14 @@ lazy val root = (project in file(".")).enablePlugins(PlayJava)
 scalaVersion := "2.11.1"
 
 libraryDependencies ++= Seq(
-  javaJdbc,
-  javaEbean,
+  jdbc,
   cache,
-  javaWs
+  ws,
+  "org.xerial" % "sqlite-jdbc" % "3.7.15-M1"
 )
 
+
+fork in run := true
 
 fork in run := true
 

@@ -3,18 +3,19 @@
 # ~~~~
 
 # Home page
-GET        /                    controllers.Application.login()
-GET        /start               controllers.Application.start()
-GET        /help               controllers.Application.help()
-GET        /uebungen_oberkoerper         controllers.Application.oberkoerper()
-GET        /studios             controllers.Application.studios()
-GET        /knstudio           controllers.Application.knStudio()
+GET        /                            controllers.Application.login()
+GET        /start                       controllers.Application.start()
+GET        /help                        controllers.Application.help()
+GET        /uebungen_oberkoerper        controllers.Application.oberkoerper()
+GET        /studios                     controllers.Application.studios()
+GET        /knstudio                    controllers.Application.knStudio()
 GET        /uebungen_arme               controllers.Application.arme()
-GET        /uebungen_beine               controllers.Application.beine()
-GET        /uebungen_bauch               controllers.Application.bauch()
-GET        /impressum                    controllers.Application.impress()
-GET        /kontakt                      controllers.Application.kontakt()
-GET        /profil                       controllers.Application.profil()
+GET        /uebungen_beine              controllers.Application.beine()
+GET        /uebungen_bauch              controllers.Application.bauch()
+GET        /impressum                   controllers.Application.impress()
+GET        /kontakt                     controllers.Application.kontakt()
+GET        /profil                      controllers.Application.profil()
+
 
 # Map static resources from the /public folder to the /assets URL path
-GET        /assets/*file        controllers.Assets.at(path="/public", file)
+GET        /assets/*file                controllers.Assets.at(path="/public", file)

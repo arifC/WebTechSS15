@@ -1,24 +1,22 @@
 function bmirechnen(){
-    alert("FNF");
-    var gewicht= 90;
-    var groeße= 1,90;
+    var gewicht = document.getElementById("gewicht").value;
+    var groeÃŸe = document.getElementById("groesse").value;
     // var geschlecht= document.getElementById("gesch").options[document.getElementById("gesch").selectedIndex].text;
-    var geschlecht = "männlich";
-    alert(gewicht);
-    if(groeße > 2.5 || gewicht < 30 || gewicht > 300){
+    var geschlecht = "mÃ¤nnlich";
+    if(groeÃŸe > 2.5 || gewicht < 30 || gewicht > 300){
         alert("Falsche Eingabe")
     }
-    var bmi = gewicht/(groeße*groeße);
-    if(geschlecht ="männlich"){
+    var bmi = gewicht/(groeÃŸe*groeÃŸe);
+    if(geschlecht === "mÃ¤nnlich"){
         switch(bmi){
-            case bmi>20:
+            case 20:
                 alert("Untergewicht");
                 break;
-            case bmi<=25&&bmi>20:
+            case 25:
                 alert("Normalgewicht");
                 break;
-            case bmi<=30&&bmi>25:
-                alert("Übergewicht");
+            case 30:
+                alert("Ãœbergewicht");
                 break;
             case bmi<=40&&bmi>31:
                 alert("Adipositas");
@@ -39,7 +37,7 @@ function bmirechnen(){
                 alert("Normalgewicht");
                 break;
             case bmi<=30&&bmi>24:
-                alert("Übergewicht");
+                alert("Ãœbergewicht");
                 break;
             case bmi<=40&&bmi>31:
                 alert("Adipositas");
