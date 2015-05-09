@@ -3,10 +3,14 @@ package models;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by ArifC on 08.05.2015.
- */
-public class Studio {
+import play.db.ebean.*;
+import play.data.format.*;
+import play.data.validation.*;
+
+@Entity
+public class Studio extends Model{
+    @Id
+    public long studi_id;
     private String plz;
     private String ort;
     private String strasse;
