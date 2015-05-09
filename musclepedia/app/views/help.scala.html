@@ -27,8 +27,20 @@
                         <div id="bmierg"></div>
                     </div>
                     <div role="tabpanel" class="tab-pane" id="kalre">
-                        <h3>Keine Ahnung was hier kommen soll</h3>
-                        <p> habe weder eine Idee was das hier eigentlich ist noch was für ne Formel notwendig wäre!</p>
+                        <h3>Kalorienrechner</h3>
+                        <p>Gewicht:     <input type="number" id="gewicht" placeholder="150" ></p>
+                        <p>Größe in cm: <input type="number" id="groesse" placeholder="175"></p>
+                        <p>Alter:       <input type="number" id="alter" placeholder="40"> </p>
+                        <p> Aktivitäten</p>
+                        <select id="faktor">
+                            <option value="1.2"> Nur sitzend oder liegend</option>
+                            <option value="1.5"> sitzend kaum körperliche Aktivität</option>
+                            <option value="1.7"> sitzend gehend und stehend</option>
+                            <option value="1.9"> Hauptsächlich gehend und stehend</option>
+                            <option value="2.2">Körperlich anstrengende Arbeit </option>
+                        </select>
+                        <button onklick="javascript:berechnekal()">Rechne </button>
+                        <div id="kalerg"></div>
                     </div>
                 </div>
 
