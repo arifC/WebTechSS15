@@ -17,7 +17,7 @@ public class Application extends Controller {
     public static Result oberkoerper() {return ok(uebungen_oberkoerper.render());
     }
     public static Result studios(){return ok(studios.render());}
-    public static Result knStudio(){return ok(knStudios.render());}
+    public static Result knStudio(){return ok(studios_kn.render());}
     public static Result arme() {return ok(uebungen_arme.render());
     }
     public static Result beine() {return ok(uebungen_beine.render());
@@ -37,6 +37,6 @@ public class Application extends Controller {
 
 
     public static Result plaene_profi() {
-        return ok(plaene_profi.render())
+        return ok(plaene_profi.render());
     }
 }
