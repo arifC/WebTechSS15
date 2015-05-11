@@ -1,19 +1,14 @@
 
 package models;
 
-import play.db.ebean.*;
 import play.data.format.*;
 import play.data.validation.*;
-@Entity
-public class Benutzer extends Model
-    @Id
+public class Benutzer{
     public long benutzer_id;
-    @Constraints.Required
     private String name;
-    @Constraints.Required
     private String email;
-    @Constraints.Required
     private int passwort;
+
     public Benutzer(String name,String mail,int passwort){
         this.name = name;
         this.email= mail;

@@ -3,13 +3,10 @@ package models;
 import java.util.ArrayList;
 import java.util.List;
 
-import play.db.ebean.*;
 import play.data.format.*;
 import play.data.validation.*;
 
-@Entity
-public class Studio extends Model{
-    @Id
+public class Studio {
     public long studi_id;
     private String plz;
     private String ort;

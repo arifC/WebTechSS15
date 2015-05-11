@@ -1,17 +1,12 @@
 package models;
 
-import play.db.ebean.*;
 import play.data.format.*;
 import play.data.validation.*;
-@Entity
-public class Bewertung extends Model{
-    @Constraints.Max(10)
+
+public class Bewertung {
     private double ausstattung;
-    @Constraints.Max(10)
     private double service;
-    @Constraints.Max(10)
     private double preis;
-    @Constraints.Max(10)
     private double lage;
 
     public Bewertung(double ausstattung, double service, double preis, double lage){
