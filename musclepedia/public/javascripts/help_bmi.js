@@ -1,6 +1,6 @@
 function bmirechnen(){
-    var gewicht = document.getElementById("gewicht").value;
-    var groesse = document.getElementById("groesse").value;
+    var gewicht = document.getElementById("gewichtB").value;
+    var groesse = document.getElementById("groesseB").value;
     // var geschlecht= document.getElementById("gesch").options[document.getElementById("gesch").selectedIndex].text;
     var geschlecht = "männlich";
     if(groesse > 2.5 || gewicht < 30 || gewicht > 300){

@@ -1,19 +1,15 @@
-New log file opened at Wed May 13 13:19:26 CEST 2015 by 3772@Felix-PC
-Taking next connection to: 51194
-New client attempting to connect on port: 51197-51194
-  Address = /192.168.0.15:51194
-This client on port 51197 has uuid 4f936c36-5ab5-41f4-82f8-998148e34bcd configName activator humanReadableName Activator protocolVersion 1 featureTags Vector()
-Connected Clients: activator-4f936c36-5ab5-41f4-82f8-998148e34bcd
-Taking next connection to: 51194
-New client attempting to connect on port: 51220-51194
-  Address = /192.168.0.15:51194
-Handshake exception on socket: 51220
+New log file opened at Wed May 13 17:42:30 CEST 2015 by 5672@ArifCerit
+Taking next connection to: 49427
+New client attempting to connect on port: 49428-49427
+  Address = /192.168.2.102:49427
+Handshake exception on socket: 49428
 sbt.impl.ipc.HandshakeException: Unable to perform handshake
 	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
 	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
 	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
 Caused by: java.net.SocketException: Software caused connection abort: recv failed
 	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(Unknown Source)
 	at java.net.SocketInputStream.read(Unknown Source)
 	at java.net.SocketInputStream.read(Unknown Source)
 	at java.io.BufferedInputStream.fill(Unknown Source)
@@ -22,24 +18,27 @@ Caused by: java.net.SocketException: Software caused connection abort: recv fail
 	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
 	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
 	... 2 more
-Taking next connection to: 51194
-New client attempting to connect on port: 51221-51194
-  Address = /192.168.0.15:51194
-This client on port 51221 has uuid 5a0ba1db-1e4e-41d1-9821-336e08fa23d0 configName activator humanReadableName Activator protocolVersion 1 featureTags Vector()
-Connected Clients: activator-5a0ba1db-1e4e-41d1-9821-336e08fa23d0
-Taking next connection to: 51194
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 51194
-New client attempting to connect on port: 51603-51194
-  Address = /192.168.0.15:51194
-Handshake exception on socket: 51603
+Taking next connection to: 49427
+New client attempting to connect on port: 49429-49427
+  Address = /192.168.2.102:49427
+This client on port 49429 has uuid a39fd489-a663-466c-baa3-7de9c7f1c828 configName activator humanReadableName Activator protocolVersion 1 featureTags Vector()
+Connected Clients: activator-a39fd489-a663-466c-baa3-7de9c7f1c828
+Taking next connection to: 49427
+New client attempting to connect on port: 49430-49427
+  Address = /192.168.2.102:49427
+This client on port 49430 has uuid 0c3db13d-e4df-4a62-9cc1-0999d54c149f configName activator humanReadableName Activator protocolVersion 1 featureTags Vector()
+Connected Clients: activator-a39fd489-a663-466c-baa3-7de9c7f1c828, activator-0c3db13d-e4df-4a62-9cc1-0999d54c149f
+Taking next connection to: 49427
+New client attempting to connect on port: 49443-49427
+  Address = /192.168.2.102:49427
+Handshake exception on socket: 49443
 sbt.impl.ipc.HandshakeException: Unable to perform handshake
 	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
 	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
 	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
 Caused by: java.net.SocketException: Software caused connection abort: recv failed
 	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(Unknown Source)
 	at java.net.SocketInputStream.read(Unknown Source)
 	at java.net.SocketInputStream.read(Unknown Source)
 	at java.io.BufferedInputStream.fill(Unknown Source)
@@ -48,16 +47,9 @@ Caused by: java.net.SocketException: Software caused connection abort: recv fail
 	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
 	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
 	... 2 more
-Taking next connection to: 51194
-New client attempting to connect on port: 51604-51194
-  Address = /192.168.0.15:51194
-This client on port 51604 has uuid 9c9d5301-5a3c-416d-99be-9e5337108186 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
-Connected Clients: activator-5a0ba1db-1e4e-41d1-9821-336e08fa23d0, play-fork-run-9c9d5301-5a3c-416d-99be-9e5337108186
-Taking next connection to: 51194
-Checking to see if clients are empty...
-No non-daemon clients connected after 3 min. Shutting down.
-1 daemon clients are connected.
-Server socket thread exiting.
-1 clients open, will close them...
-All client sockets have been closed.
-Closing the 3772@Felix-PC logs at Wed May 13 13:28:46 CEST 2015, goodbye.
+Taking next connection to: 49427
+New client attempting to connect on port: 49444-49427
+  Address = /192.168.2.102:49427
+This client on port 49444 has uuid 850351eb-90aa-416a-b7ea-f94dc9fdd08e configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: activator-a39fd489-a663-466c-baa3-7de9c7f1c828, play-fork-run-850351eb-90aa-416a-b7ea-f94dc9fdd08e
+Taking next connection to: 49427
