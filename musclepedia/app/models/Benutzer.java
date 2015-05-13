@@ -1,8 +1,10 @@
-
 package models;
 
 import play.data.format.*;
 import play.data.validation.*;
+import javax.persistence.Entity;
+
+@Entity
 public class Benutzer{
     public long benutzer_id;
     private String name;

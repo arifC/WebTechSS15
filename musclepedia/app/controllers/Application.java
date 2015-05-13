@@ -39,4 +39,7 @@ public class Application extends Controller {
     public static Result plaene_profi() {
         return ok(plaene_profi.render());
     }
+    public static Result benutzer_anlegen(){  return null;   };
+    }
+
 }

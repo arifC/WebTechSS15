@@ -1,58 +1,25 @@
-New log file opened at Mon May 11 19:14:14 CEST 2015 by 4780@ArifCerit
-Taking next connection to: 63627
-New client attempting to connect on port: 63628-63627
-  Address = /192.168.2.102:63627
-This client on port 63628 has uuid fbc99c8d-d14f-420a-956d-65a18c10e673 configName activator humanReadableName Activator protocolVersion 1 featureTags Vector()
-Connected Clients: activator-fbc99c8d-d14f-420a-956d-65a18c10e673
-Taking next connection to: 63627
-New client attempting to connect on port: 63629-63627
-  Address = /192.168.2.102:63627
-Handshake exception on socket: 63629
+New log file opened at Mon May 11 21:04:57 CEST 2015 by 7280@Felix-PC
+Taking next connection to: 54162
+New client attempting to connect on port: 54163-54162
+  Address = /192.168.0.12:54162
+This client on port 54163 has uuid b249f3da-b226-4b17-8f7e-523a84d2be12 configName activator humanReadableName Activator protocolVersion 1 featureTags Vector()
+Connected Clients: activator-b249f3da-b226-4b17-8f7e-523a84d2be12
+Taking next connection to: 54162
+New client attempting to connect on port: 54164-54162
+  Address = /192.168.0.12:54162
+Handshake exception on socket: 54164
 sbt.impl.ipc.HandshakeException: Unable to perform handshake
 	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
 	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
 	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
-Caused by: java.net.SocketException: Software caused connection abort: recv failed
-	at java.net.SocketInputStream.socketRead0(Native Method)
-	at java.net.SocketInputStream.socketRead(Unknown Source)
-	at java.net.SocketInputStream.read(Unknown Source)
-	at java.net.SocketInputStream.read(Unknown Source)
-	at java.io.BufferedInputStream.fill(Unknown Source)
-	at java.io.BufferedInputStream.read(Unknown Source)
+Caused by: java.io.EOFException
 	at java.io.DataInputStream.readInt(Unknown Source)
 	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
 	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
 	... 2 more
-Taking next connection to: 63627
-New client attempting to connect on port: 63630-63627
-  Address = /192.168.2.102:63627
-This client on port 63630 has uuid 3e807829-f3b3-4945-8d24-bc65115ee8d5 configName activator humanReadableName Activator protocolVersion 1 featureTags Vector()
-Connected Clients: activator-fbc99c8d-d14f-420a-956d-65a18c10e673, activator-3e807829-f3b3-4945-8d24-bc65115ee8d5
-Taking next connection to: 63627
-New client attempting to connect on port: 63651-63627
-  Address = /192.168.2.102:63627
-Handshake exception on socket: 63651
-sbt.impl.ipc.HandshakeException: Unable to perform handshake
-	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
-	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
-	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
-Caused by: java.net.SocketException: Software caused connection abort: recv failed
-	at java.net.SocketInputStream.socketRead0(Native Method)
-	at java.net.SocketInputStream.socketRead(Unknown Source)
-	at java.net.SocketInputStream.read(Unknown Source)
-	at java.net.SocketInputStream.read(Unknown Source)
-	at java.io.BufferedInputStream.fill(Unknown Source)
-	at java.io.BufferedInputStream.read(Unknown Source)
-	at java.io.DataInputStream.readInt(Unknown Source)
-	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
-	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
-	... 2 more
-Taking next connection to: 63627
-New client attempting to connect on port: 63652-63627
-  Address = /192.168.2.102:63627
-This client on port 63652 has uuid 88539b90-c518-4f46-9c98-991d5f90a90b configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
-Connected Clients: activator-3e807829-f3b3-4945-8d24-bc65115ee8d5, play-fork-run-88539b90-c518-4f46-9c98-991d5f90a90b
-Taking next connection to: 63627
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 63627
+Taking next connection to: 54162
+New client attempting to connect on port: 54165-54162
+  Address = /192.168.0.12:54162
+This client on port 54165 has uuid 4fdb2e55-290b-49a4-9ec3-7771661a022c configName activator humanReadableName Activator protocolVersion 1 featureTags Vector()
+Connected Clients: activator-b249f3da-b226-4b17-8f7e-523a84d2be12, activator-4fdb2e55-290b-49a4-9ec3-7771661a022c
+Taking next connection to: 54162

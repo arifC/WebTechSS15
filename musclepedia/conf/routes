@@ -17,7 +17,7 @@ GET        /kontakt                     controllers.Application.kontakt()
 GET        /profil                      controllers.Application.profil()
 GET        /plaene_anfaenger            controllers.Application.plaene_anfaenger()
 GET        /plaene_fortgesch            controllers.Application.plaene_fortgesch()
-GET        /plaene_profi           controllers.Application.plaene_profi()
-
+GET        /plaene_profi                controllers.Application.plaene_profi()
+GET        /benutzer_anlegen            controllers.Application.benutzer_anlegen()
 # Map static resources from the /public folder to the /assets URL path
 GET        /assets/*file                controllers.Assets.at(path="/public", file)
