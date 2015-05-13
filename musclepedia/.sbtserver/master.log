@@ -3270,3 +3270,354 @@ Copy resource mappings:
 Total time: 1 s, completed 13.05.2015 18:47:42
 > server-post-command-cleanup
 > server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@599d2ca9, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Trainingsplan.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Trainingsplan.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Trainingsplan.java)
+
+Read from stdout: Compiling 1 Java source to C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\target\scala-2.11\classes...
+Compiling 1 Java source to C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\target\scala-2.11\classes...
+Read from stdout: C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Trainingsplan.java:12:  error: cannot find symbol
+C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Trainingsplan.java:12:  error: cannot find symbol
+Read from stdout: @ID
+Read from stdout: ^
+    @ID
+     ^
+Read from stdout: (compile:compileIncremental) javac returned nonzero exit code
+(compile:compileIncremental) javac returned nonzero exit code
+Total time: 2 s, completed 13.05.2015 18:51:19
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@6a524b31, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Trainingsplan.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Trainingsplan.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Trainingsplan.java)
+
+Read from stdout: Compiling 1 Java source to C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\target\scala-2.11\classes...
+Compiling 1 Java source to C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\target\scala-2.11\classes...
+Read from stdout: C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Trainingsplan.java:3:  error: package com.sun.javafx.beans does not exist
+C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Trainingsplan.java:3:  error: package com.sun.javafx.beans does not exist
+Read from stdout: import com.sun.javafx.beans.IDProperty;
+Read from stdout: ^
+import com.sun.javafx.beans.IDProperty;
+                           ^
+Read from stdout: C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Trainingsplan.java:13:  error: cannot find symbol
+C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Trainingsplan.java:13:  error: cannot find symbol
+Read from stdout: @Id
+Read from stdout: ^
+    @Id
+     ^
+Read from stdout: (compile:compileIncremental) javac returned nonzero exit code
+(compile:compileIncremental) javac returned nonzero exit code
+Total time: 2 s, completed 13.05.2015 18:52:28
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@79d2c6a4, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Trainingsplan.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Trainingsplan.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Trainingsplan.java)
+
+Read from stdout: Compiling 1 Java source to C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\target\scala-2.11\classes...
+Compiling 1 Java source to C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\target\scala-2.11\classes...
+Read from stdout: C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Trainingsplan.java:3:  error: package com.sun.javafx.beans does not exist
+C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Trainingsplan.java:3:  error: package com.sun.javafx.beans does not exist
+Read from stdout: import com.sun.javafx.beans.IDProperty;
+Read from stdout: ^
+import com.sun.javafx.beans.IDProperty;
+                           ^
+Read from stdout: C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Trainingsplan.java:14:  error: cannot find symbol
+C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Trainingsplan.java:14:  error: cannot find symbol
+Read from stdout: @Id
+Read from stdout: ^
+    @Id
+     ^
+Read from stdout: (compile:compileIncremental) javac returned nonzero exit code
+(compile:compileIncremental) javac returned nonzero exit code
+Total time: 2 s, completed 13.05.2015 18:52:36
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@371f7aef, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Trainingsplan.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Trainingsplan.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Trainingsplan.java)
+
+Read from stdout: Compiling 1 Java source to C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\target\scala-2.11\classes...
+Compiling 1 Java source to C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\target\scala-2.11\classes...
+Read from stdout: C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Trainingsplan.java:3:  error: package com.sun.javafx.beans does not exist
+C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Trainingsplan.java:3:  error: package com.sun.javafx.beans does not exist
+Read from stdout: import com.sun.javafx.beans.IDProperty;
+Read from stdout: ^
+import com.sun.javafx.beans.IDProperty;
+                           ^
+Read from stdout: (compile:compileIncremental) javac returned nonzero exit code
+(compile:compileIncremental) javac returned nonzero exit code
+Total time: 2 s, completed 13.05.2015 18:52:47
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@53175a72, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Trainingsplan.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Trainingsplan.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Trainingsplan.java)
+
+Read from stdout: Compiling 1 Java source to C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\target\scala-2.11\classes...
+Compiling 1 Java source to C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\target\scala-2.11\classes...
+Read from stdout: C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Trainingsplan.java:3:  error: package com.sun.javafx.beans does not exist
+C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Trainingsplan.java:3:  error: package com.sun.javafx.beans does not exist
+Read from stdout: import com.sun.javafx.beans.IDProperty;
+Read from stdout: ^
+import com.sun.javafx.beans.IDProperty;
+                           ^
+Read from stdout: (compile:compileIncremental) javac returned nonzero exit code
+(compile:compileIncremental) javac returned nonzero exit code
+Total time: 2 s, completed 13.05.2015 18:54:28
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@39310766, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Benutzer.java, C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Trainingsplan.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Benutzer.java, C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Trainingsplan.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Benutzer.java, C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Trainingsplan.java)
+
+Read from stdout: Compiling 2 Java sources to C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\target\scala-2.11\classes...
+Compiling 2 Java sources to C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\target\scala-2.11\classes...
+Read from stdout: C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Benutzer.java:2:  error: package com.sun.javafx.beans does not exist
+C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Benutzer.java:2:  error: package com.sun.javafx.beans does not exist
+Read from stdout: import com.sun.javafx.beans.IDProperty;
+Read from stdout: ^
+import com.sun.javafx.beans.IDProperty;
+                           ^
+Read from stdout: C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Trainingsplan.java:3:  error: package com.sun.javafx.beans does not exist
+C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Trainingsplan.java:3:  error: package com.sun.javafx.beans does not exist
+Read from stdout: import com.sun.javafx.beans.IDProperty;
+Read from stdout: ^
+import com.sun.javafx.beans.IDProperty;
+                           ^
+Read from stdout: (compile:compileIncremental) javac returned nonzero exit code
+(compile:compileIncremental) javac returned nonzero exit code
+Total time: 2 s, completed 13.05.2015 18:55:21
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@89048d, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Benutzer.java, C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Trainingsplan.java, C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Uebungen.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Benutzer.java, C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Trainingsplan.java, C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Uebungen.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Benutzer.java, C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Trainingsplan.java, C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Uebungen.java)
+
+Read from stdout: Compiling 3 Java sources to C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\target\scala-2.11\classes...
+Compiling 3 Java sources to C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\target\scala-2.11\classes...
+Read from stdout: C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Benutzer.java:2:  error: package com.sun.javafx.beans does not exist
+C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Benutzer.java:2:  error: package com.sun.javafx.beans does not exist
+Read from stdout: import com.sun.javafx.beans.IDProperty;
+Read from stdout: ^
+import com.sun.javafx.beans.IDProperty;
+                           ^
+Read from stdout: C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Trainingsplan.java:3:  error: package com.sun.javafx.beans does not exist
+C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Trainingsplan.java:3:  error: package com.sun.javafx.beans does not exist
+Read from stdout: import com.sun.javafx.beans.IDProperty;
+Read from stdout: ^
+import com.sun.javafx.beans.IDProperty;
+                           ^
+Read from stdout: C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Uebungen.java:3:  error: package com.sun.javafx.beans does not exist
+C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Uebungen.java:3:  error: package com.sun.javafx.beans does not exist
+Read from stdout: import com.sun.javafx.beans.IDProperty;
+Read from stdout: ^
+import com.sun.javafx.beans.IDProperty;
+                           ^
+Read from stdout: (compile:compileIncremental) javac returned nonzero exit code
+(compile:compileIncremental) javac returned nonzero exit code
+Total time: 2 s, completed 13.05.2015 18:55:32
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@2ddef254, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Benutzer.java, C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Trainingsplan.java, C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Uebungen.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Benutzer.java, C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Trainingsplan.java, C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Uebungen.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Benutzer.java, C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Trainingsplan.java, C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Uebungen.java)
+
+Read from stdout: Compiling 3 Java sources to C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\target\scala-2.11\classes...
+Compiling 3 Java sources to C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\target\scala-2.11\classes...
+Read from stdout: C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Benutzer.java:2:  error: package com.sun.javafx.beans does not exist
+C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Benutzer.java:2:  error: package com.sun.javafx.beans does not exist
+Read from stdout: import com.sun.javafx.beans.IDProperty;
+Read from stdout: ^
+import com.sun.javafx.beans.IDProperty;
+                           ^
+Read from stdout: C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Trainingsplan.java:3:  error: package com.sun.javafx.beans does not exist
+C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Trainingsplan.java:3:  error: package com.sun.javafx.beans does not exist
+Read from stdout: import com.sun.javafx.beans.IDProperty;
+Read from stdout: ^
+import com.sun.javafx.beans.IDProperty;
+                           ^
+Read from stdout: C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Uebungen.java:3:  error: package com.sun.javafx.beans does not exist
+C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Uebungen.java:3:  error: package com.sun.javafx.beans does not exist
+Read from stdout: import com.sun.javafx.beans.IDProperty;
+Read from stdout: ^
+import com.sun.javafx.beans.IDProperty;
+                           ^
+Read from stdout: (compile:compileIncremental) javac returned nonzero exit code
+(compile:compileIncremental) javac returned nonzero exit code
+Total time: 2 s, completed 13.05.2015 18:56:19
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@7bec80cd, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Benutzer.java, C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Trainingsplan.java, C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Uebungen.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Benutzer.java, C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Trainingsplan.java, C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Uebungen.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Benutzer.java, C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Trainingsplan.java, C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Uebungen.java)
+
+Read from stdout: Compiling 3 Java sources to C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\target\scala-2.11\classes...
+Compiling 3 Java sources to C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\target\scala-2.11\classes...
+Read from stdout: C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Benutzer.java:2:  error: package com.sun.javafx.beans does not exist
+C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Benutzer.java:2:  error: package com.sun.javafx.beans does not exist
+Read from stdout: import com.sun.javafx.beans.IDProperty;
+Read from stdout: ^
+import com.sun.javafx.beans.IDProperty;
+                           ^
+Read from stdout: C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Trainingsplan.java:3:  error: package com.sun.javafx.beans does not exist
+C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Trainingsplan.java:3:  error: package com.sun.javafx.beans does not exist
+Read from stdout: import com.sun.javafx.beans.IDProperty;
+Read from stdout: ^
+import com.sun.javafx.beans.IDProperty;
+                           ^
+Read from stdout: C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Uebungen.java:3:  error: package com.sun.javafx.beans does not exist
+C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Uebungen.java:3:  error: package com.sun.javafx.beans does not exist
+Read from stdout: import com.sun.javafx.beans.IDProperty;
+Read from stdout: ^
+import com.sun.javafx.beans.IDProperty;
+                           ^
+Read from stdout: (compile:compileIncremental) javac returned nonzero exit code
+(compile:compileIncremental) javac returned nonzero exit code
+Total time: 2 s, completed 13.05.2015 18:56:59
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request

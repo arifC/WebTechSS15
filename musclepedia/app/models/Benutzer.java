@@ -1,14 +1,21 @@
 package models;
-
+import com.sun.javafx.beans.IDProperty;
 import play.data.format.*;
+import play.db.ebean.*;
+import javax.persistence.*;
 import play.data.validation.*;
 import javax.persistence.Entity;
 
-//@Entity
+
+@Entity
 public class Benutzer{
+    @Id
     public int benutzer_id;
+    @Constraints.Required
     private String name;
+    @Constraints.Required
     private String email;
+    @Constraints.Required
     private int passwort;
     private Trainingsplan myPlan= new Trainingsplan("Custom Plan");
 
