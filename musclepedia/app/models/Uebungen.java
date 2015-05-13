@@ -1,6 +1,6 @@
 package models;
 
-import com.sun.javafx.beans.IDProperty;
+
 import play.data.format.*;
 import play.db.ebean.*;
 import javax.persistence.*;

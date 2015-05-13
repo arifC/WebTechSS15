@@ -4,21 +4,23 @@
 # --- !Ups
 
 create table benutzer (
-  benutzer_id               integer,
+  benutzer_id               integer primary key AUTOINCREMENT,
   name                      varchar(255),
   email                     varchar(255),
   passwort                  integer)
 ;
 
 create table trainingsplan (
-  plan_id                   integer,
+  plan_id                   integer primary key AUTOINCREMENT,
   typ                       varchar(255))
 ;
 
 create table uebungen (
-  uebung_id                 integer,
+  uebung_id                 integer primary key AUTOINCREMENT,
   name                      varchar(255),
   mu                        integer,
+  beschreibung              varchar(255),
+  schwierigkeit             varchar(255),
   constraint ck_uebungen_mu check (mu in (0,1,2,3)))
 ;
 

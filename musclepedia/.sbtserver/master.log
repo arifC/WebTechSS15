@@ -3621,3 +3621,442 @@ Total time: 2 s, completed 13.05.2015 18:56:59
 > server-post-command-error-handler
 > server-post-command-cleanup
 > server-handle-next-server-request
+> {file:/C:/Users/Saroga/Desktop/WebTechSS15/musclepedia/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@4e1c0be2, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Benutzer.java, C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Trainingsplan.java, C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Uebungen.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Benutzer.java, C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Trainingsplan.java, C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Uebungen.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Benutzer.java, C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Trainingsplan.java, C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Uebungen.java)
+
+Read from stdout: Compiling 3 Java sources to C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\target\scala-2.11\classes...
+Compiling 3 Java sources to C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\target\scala-2.11\classes...
+Read from stdout: C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Benutzer.java:2:  error: package com.sun.javafx.beans does not exist
+C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Benutzer.java:2:  error: package com.sun.javafx.beans does not exist
+Read from stdout: import com.sun.javafx.beans.IDProperty;
+Read from stdout: ^
+import com.sun.javafx.beans.IDProperty;
+                           ^
+Read from stdout: C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Trainingsplan.java:3:  error: package com.sun.javafx.beans does not exist
+C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Trainingsplan.java:3:  error: package com.sun.javafx.beans does not exist
+Read from stdout: import com.sun.javafx.beans.IDProperty;
+Read from stdout: ^
+import com.sun.javafx.beans.IDProperty;
+                           ^
+Read from stdout: C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Uebungen.java:3:  error: package com.sun.javafx.beans does not exist
+C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Uebungen.java:3:  error: package com.sun.javafx.beans does not exist
+Read from stdout: import com.sun.javafx.beans.IDProperty;
+Read from stdout: ^
+import com.sun.javafx.beans.IDProperty;
+                           ^
+Total time: 2 s, completed 13.05.2015 18:59:56
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@3ec8ccd1, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Benutzer.java, C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Trainingsplan.java, C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Uebungen.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Benutzer.java, C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Trainingsplan.java, C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Uebungen.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Benutzer.java, C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Trainingsplan.java, C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Uebungen.java)
+
+Read from stdout: Compiling 3 Java sources to C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\target\scala-2.11\classes...
+Compiling 3 Java sources to C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\target\scala-2.11\classes...
+Read from stdout: C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Uebungen.java:3:  error: package com.sun.javafx.beans does not exist
+C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Uebungen.java:3:  error: package com.sun.javafx.beans does not exist
+Read from stdout: import com.sun.javafx.beans.IDProperty;
+Read from stdout: ^
+import com.sun.javafx.beans.IDProperty;
+                           ^
+Read from stdout: (compile:compileIncremental) javac returned nonzero exit code
+(compile:compileIncremental) javac returned nonzero exit code
+Total time: 2 s, completed 13.05.2015 19:00:21
+> server-post-command-error-handler
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/Saroga/Desktop/WebTechSS15/musclepedia/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@12d588b7, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Benutzer.java, C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Trainingsplan.java, C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Uebungen.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Benutzer.java, C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Trainingsplan.java, C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Uebungen.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Benutzer.java, C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Trainingsplan.java, C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Uebungen.java)
+
+Read from stdout: Compiling 3 Java sources to C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\target\scala-2.11\classes...
+Compiling 3 Java sources to C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\target\scala-2.11\classes...
+Read from stdout: C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Uebungen.java:3:  error: package com.sun.javafx.beans does not exist
+C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Uebungen.java:3:  error: package com.sun.javafx.beans does not exist
+Read from stdout: import com.sun.javafx.beans.IDProperty;
+Read from stdout: ^
+import com.sun.javafx.beans.IDProperty;
+                           ^
+Total time: 2 s, completed 13.05.2015 19:00:23
+> server-post-command-cleanup
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@621db594, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Benutzer.java, C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Trainingsplan.java, C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Uebungen.java)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Benutzer.java, C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Trainingsplan.java, C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Uebungen.java)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Benutzer.java, C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Trainingsplan.java, C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Uebungen.java)
+
+Read from stdout: Compiling 3 Java sources to C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\target\scala-2.11\classes...
+Compiling 3 Java sources to C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\target\scala-2.11\classes...
+Java compilation took 1.370118579 s
+Java analysis took 0.056240181 s
+Java compile + analysis took 1.440417842 s
+Invalidating C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Benutzer.java...
+Invalidating (transitively) by inheritance from C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Benutzer.java...
+Initial set of included nodes: Set(C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Benutzer.java)
+Invalidated by transitive inheritance dependency: Set(C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Benutzer.java)
+The C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Benutzer.java source file has the following regular definitions changed:
+	name, email, benutzer_id, Benutzer, passwort.
+All member reference dependencies will be considered within this context.
+Name hashing optimization doesn't apply to non-Scala dependency: C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Benutzer.java
+Invalidating C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Trainingsplan.java...
+Invalidating (transitively) by inheritance from C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Trainingsplan.java...
+Initial set of included nodes: Set(C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Trainingsplan.java)
+Invalidated by transitive inheritance dependency: Set(C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Trainingsplan.java)
+The C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Trainingsplan.java source file has the following regular definitions changed:
+	Plan_id, Trainingsplan, typ.
+All member reference dependencies will be considered within this context.
+Name hashing optimization doesn't apply to non-Scala dependency: C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Benutzer.java
+Name hashing optimization doesn't apply to non-Scala dependency: C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Trainingsplan.java
+Invalidating C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Uebungen.java...
+Invalidating (transitively) by inheritance from C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Uebungen.java...
+Initial set of included nodes: Set(C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Uebungen.java)
+Invalidated by transitive inheritance dependency: Set(C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Uebungen.java)
+The C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Uebungen.java source file has the following regular definitions changed:
+	name, Uebungen, beschreibung, schwierigkeit, uebung_id, mu.
+All member reference dependencies will be considered within this context.
+Name hashing optimization doesn't apply to non-Scala dependency: C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Benutzer.java
+Name hashing optimization doesn't apply to non-Scala dependency: C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Trainingsplan.java
+Name hashing optimization doesn't apply to non-Scala dependency: C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\app\models\Uebungen.java
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Total time: 2 s, completed 13.05.2015 19:00:40
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/Saroga/Desktop/WebTechSS15/musclepedia/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@6d75bd08, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	(C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\conf\application.conf,C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\target\scala-2.11\classes\application.conf)
+	(C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\conf\evolutions,C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\target\scala-2.11\classes\evolutions)
+	(C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\conf\routes,C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\target\scala-2.11\classes\routes)
+	(C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\conf\evolutions\default,C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\target\scala-2.11\classes\evolutions\default)
+	(C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\conf\evolutions\default\1.sql,C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\target\scala-2.11\classes\evolutions\default\1.sql)
+Total time: 1 s, completed 13.05.2015 19:00:41
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/Saroga/Desktop/WebTechSS15/musclepedia/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@2455467a, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	(C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\conf\application.conf,C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\target\scala-2.11\classes\application.conf)
+	(C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\conf\evolutions,C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\target\scala-2.11\classes\evolutions)
+	(C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\conf\routes,C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\target\scala-2.11\classes\routes)
+	(C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\conf\evolutions\default,C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\target\scala-2.11\classes\evolutions\default)
+	(C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\conf\evolutions\default\1.sql,C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\target\scala-2.11\classes\evolutions\default\1.sql)
+Total time: 1 s, completed 13.05.2015 19:02:20
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/Saroga/Desktop/WebTechSS15/musclepedia/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@112fc6e2, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	(C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\conf\application.conf,C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\target\scala-2.11\classes\application.conf)
+	(C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\conf\evolutions,C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\target\scala-2.11\classes\evolutions)
+	(C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\conf\routes,C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\target\scala-2.11\classes\routes)
+	(C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\conf\evolutions\default,C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\target\scala-2.11\classes\evolutions\default)
+	(C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\conf\evolutions\default\1.sql,C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\target\scala-2.11\classes\evolutions\default\1.sql)
+Total time: 1 s, completed 13.05.2015 19:02:21
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/Saroga/Desktop/WebTechSS15/musclepedia/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@1c5d5582, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\target\scala-2.11\twirl\main\views\html\help.template.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\target\scala-2.11\twirl\main\views\html\help.template.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\target\scala-2.11\twirl\main\views\html\help.template.scala)
+
+Read from stdout: Compiling 1 Scala source to C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\target\scala-2.11\classes...
+Compiling 1 Scala source to C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.1
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.1
+Other repositories:
+Default repositories:
+Running cached compiler 2bca08b6, interfacing (CompilerInterface) with Scala compiler version 2.11.1
+Calling Scala compiler with arguments  (CompilerInterface):
+	-deprecation
+	-unchecked
+	-encoding
+	utf8
+	-bootclasspath
+	C:\Program Files\Java\jre1.8.0_45\lib\resources.jar;C:\Program Files\Java\jre1.8.0_45\lib\rt.jar;C:\Program Files\Java\jre1.8.0_45\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_45\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_45\lib\jce.jar;C:\Program Files\Java\jre1.8.0_45\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_45\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_45\classes;C:\Users\Saroga\Desktop\activator-1.3.2\repository\org.scala-lang\scala-library\2.11.1\jars\scala-library.jar
+	-classpath
+	C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\target\scala-2.11\classes;C:\Users\Saroga\.ivy2\cache\com.typesafe.play\twirl-api_2.11\jars\twirl-api_2.11-1.0.2.jar;C:\Users\Saroga\.ivy2\cache\org.apache.commons\commons-lang3\jars\commons-lang3-3.1.jar;C:\Users\Saroga\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.1.jar;C:\Users\Saroga\.ivy2\cache\com.typesafe.play\play_2.11\jars\play_2.11-2.3.8.jar;C:\Users\Saroga\.ivy2\cache\com.typesafe.play\build-link\jars\build-link-2.3.8.jar;C:\Users\Saroga\.ivy2\cache\com.typesafe.play\play-exceptions\jars\play-exceptions-2.3.8.jar;C:\Users\Saroga\.ivy2\cache\com.typesafe.play\play-iteratees_2.11\jars\play-iteratees_2.11-2.3.8.jar;C:\Users\Saroga\.ivy2\cache\org.scala-stm\scala-stm_2.11\jars\scala-stm_2.11-0.7.jar;C:\Users\Saroga\.ivy2\cache\com.typesafe\config\bundles\config-1.2.1.jar;C:\Users\Saroga\.ivy2\cache\com.typesafe.play\play-json_2.11\jars\play-json_2.11-2.3.8.jar;C:\Users\Saroga\.ivy2\cache\com.typesafe.play\play-functional_2.11\jars\play-functional_2.11-2.3.8.jar;C:\Users\Saroga\.ivy2\cache\com.typesafe.play\play-datacommons_2.11\jars\play-datacommons_2.11-2.3.8.jar;C:\Users\Saroga\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.3.jar;C:\Users\Saroga\.ivy2\cache\org.joda\joda-convert\jars\joda-convert-1.6.jar;C:\Users\Saroga\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\bundles\jackson-annotations-2.3.2.jar;C:\Users\Saroga\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\bundles\jackson-core-2.3.2.jar;C:\Users\Saroga\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\bundles\jackson-databind-2.3.2.jar;C:\Users\Saroga\Desktop\activator-1.3.2\repository\org.scala-lang\scala-reflect\2.11.1\jars\scala-reflect.jar;C:\Users\Saroga\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\bundles\scala-parser-combinators_2.11-1.0.1.jar;C:\Users\Saroga\.ivy2\cache\io.netty\netty\bundles\netty-3.9.3.Final.jar;C:\Users\Saroga\.ivy2\cache\com.typesafe.netty\netty-http-pipelining\jars\netty-http-pipelining-1.1.2.jar;C:\Users\Saroga\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.6.jar;C:\Users\Saroga\.ivy2\cache\org.slf4j\jul-to-slf4j\jars\jul-to-slf4j-1.7.6.jar;C:\Users\Saroga\.ivy2\cache\org.slf4j\jcl-over-slf4j\jars\jcl-over-slf4j-1.7.6.jar;C:\Users\Saroga\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.1.1.jar;C:\Users\Saroga\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.1.1.jar;C:\Users\Saroga\Desktop\activator-1.3.2\repository\com.typesafe.akka\akka-actor_2.11\2.3.4\jars\akka-actor_2.11.jar;C:\Users\Saroga\Desktop\activator-1.3.2\repository\com.typesafe.akka\akka-slf4j_2.11\2.3.4\jars\akka-slf4j_2.11.jar;C:\Users\Saroga\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.9.jar;C:\Users\Saroga\.ivy2\cache\xerces\xercesImpl\jars\xercesImpl-2.11.0.jar;C:\Users\Saroga\.ivy2\cache\xml-apis\xml-apis\jars\xml-apis-1.4.01.jar;C:\Users\Saroga\.ivy2\cache\javax.transaction\jta\jars\jta-1.1.jar;C:\Users\Saroga\Desktop\activator-1.3.2\repository\com.typesafe.play\play-java_2.11\2.3.8\jars\play-java_2.11.jar;C:\Users\Saroga\Desktop\activator-1.3.2\repository\org.yaml\snakeyaml\1.13\bundles\snakeyaml.jar;C:\Users\Saroga\Desktop\activator-1.3.2\repository\org.hibernate\hibernate-validator\5.0.3.Final\jars\hibernate-validator.jar;C:\Users\Saroga\Desktop\activator-1.3.2\repository\javax.validation\validation-api\1.1.0.Final\jars\validation-api.jar;C:\Users\Saroga\Desktop\activator-1.3.2\repository\com.fasterxml\classmate\1.0.0\bundles\classmate.jar;C:\Users\Saroga\Desktop\activator-1.3.2\repository\org.jboss.logging\jboss-logging\3.2.0.Final\jars\jboss-logging.jar;C:\Users\Saroga\Desktop\activator-1.3.2\repository\org.springframework\spring-context\4.0.3.RELEASE\jars\spring-context.jar;C:\Users\Saroga\Desktop\activator-1.3.2\repository\org.springframework\spring-core\4.0.3.RELEASE\jars\spring-core.jar;C:\Users\Saroga\Desktop\activator-1.3.2\repository\org.springframework\spring-beans\4.0.3.RELEASE\jars\spring-beans.jar;C:\Users\Saroga\Desktop\activator-1.3.2\repository\org.javassist\javassist\3.19.0-GA\bundles\javassist.jar;C:\Users\Saroga\Desktop\activator-1.3.2\repository\org.reflections\reflections\0.9.8\jars\reflections.jar;C:\Users\Saroga\.ivy2\cache\com.google.guava\guava\bundles\guava-16.0.1.jar;C:\Users\Saroga\Desktop\activator-1.3.2\repository\dom4j\dom4j\1.6.1\jars\dom4j.jar;C:\Users\Saroga\Desktop\activator-1.3.2\repository\com.google.code.findbugs\jsr305\2.0.3\jars\jsr305.jar;C:\Users\Saroga\Desktop\activator-1.3.2\repository\org.apache.tomcat\tomcat-servlet-api\8.0.5\jars\tomcat-servlet-api.jar;C:\Users\Saroga\Desktop\activator-1.3.2\repository\com.typesafe.play\play-jdbc_2.11\2.3.8\jars\play-jdbc_2.11.jar;C:\Users\Saroga\Desktop\activator-1.3.2\repository\com.jolbox\bonecp\0.8.0.RELEASE\bundles\bonecp.jar;C:\Users\Saroga\Desktop\activator-1.3.2\repository\com.h2database\h2\1.3.175\jars\h2.jar;C:\Users\Saroga\Desktop\activator-1.3.2\repository\tyrex\tyrex\1.0.1\jars\tyrex.jar;C:\Users\Saroga\Desktop\activator-1.3.2\repository\com.typesafe.play\play-java-ebean_2.11\2.3.8\jars\play-java-ebean_2.11.jar;C:\Users\Saroga\Desktop\activator-1.3.2\repository\com.typesafe.play\play-java-jdbc_2.11\2.3.8\jars\play-java-jdbc_2.11.jar;C:\Users\Saroga\Desktop\activator-1.3.2\repository\org.avaje.ebeanorm\avaje-ebeanorm\3.3.4\jars\avaje-ebeanorm.jar;C:\Users\Saroga\Desktop\activator-1.3.2\repository\org.avaje.ebeanorm\avaje-ebeanorm-agent\3.2.2\jars\avaje-ebeanorm-agent.jar;C:\Users\Saroga\Desktop\activator-1.3.2\repository\org.hibernate.javax.persistence\hibernate-jpa-2.0-api\1.0.1.Final\jars\hibernate-jpa-2.0-api.jar;C:\Users\Saroga\Desktop\activator-1.3.2\repository\com.typesafe.play\play-cache_2.11\2.3.8\jars\play-cache_2.11.jar;C:\Users\Saroga\Desktop\activator-1.3.2\repository\net.sf.ehcache\ehcache-core\2.6.8\jars\ehcache-core.jar;C:\Users\Saroga\.ivy2\cache\com.typesafe.play\play-ws_2.11\jars\play-ws_2.11-2.3.8.jar;C:\Users\Saroga\.ivy2\cache\com.ning\async-http-client\jars\async-http-client-1.8.15.jar;C:\Users\Saroga\.ivy2\cache\oauth.signpost\signpost-core\jars\signpost-core-1.2.1.2.jar;C:\Users\Saroga\.ivy2\cache\oauth.signpost\signpost-commonshttp4\jars\signpost-commonshttp4-1.2.1.2.jar;C:\Users\Saroga\Desktop\activator-1.3.2\repository\org.apache.httpcomponents\httpcore\4.0.1\jars\httpcore.jar;C:\Users\Saroga\Desktop\activator-1.3.2\repository\org.apache.httpcomponents\httpclient\4.0.1\jars\httpclient.jar;C:\Users\Saroga\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.1.jar;C:\Users\Saroga\.ivy2\cache\org.xerial\sqlite-jdbc\jars\sqlite-jdbc-3.7.15-M1.jar
+Scala compilation took 1.899301158 s
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Copy resource mappings: 
+	(C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\conf\application.conf,C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\target\scala-2.11\classes\application.conf)
+	(C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\conf\evolutions,C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\target\scala-2.11\classes\evolutions)
+	(C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\conf\routes,C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\target\scala-2.11\classes\routes)
+	(C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\conf\evolutions\default,C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\target\scala-2.11\classes\evolutions\default)
+	(C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\conf\evolutions\default\1.sql,C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\target\scala-2.11\classes\evolutions\default\1.sql)
+Total time: 3 s, completed 13.05.2015 19:07:44
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/Saroga/Desktop/WebTechSS15/musclepedia/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@40628098, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\target\scala-2.11\twirl\main\views\html\help.template.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\target\scala-2.11\twirl\main\views\html\help.template.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\target\scala-2.11\twirl\main\views\html\help.template.scala)
+
+Read from stdout: Compiling 1 Scala source to C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\target\scala-2.11\classes...
+Compiling 1 Scala source to C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.1
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.1
+Other repositories:
+Default repositories:
+Running cached compiler 48f1c219, interfacing (CompilerInterface) with Scala compiler version 2.11.1
+Calling Scala compiler with arguments  (CompilerInterface):
+	-deprecation
+	-unchecked
+	-encoding
+	utf8
+	-bootclasspath
+	C:\Program Files\Java\jre1.8.0_45\lib\resources.jar;C:\Program Files\Java\jre1.8.0_45\lib\rt.jar;C:\Program Files\Java\jre1.8.0_45\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_45\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_45\lib\jce.jar;C:\Program Files\Java\jre1.8.0_45\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_45\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_45\classes;C:\Users\Saroga\Desktop\activator-1.3.2\repository\org.scala-lang\scala-library\2.11.1\jars\scala-library.jar
+	-classpath
+	C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\target\scala-2.11\classes;C:\Users\Saroga\.ivy2\cache\com.typesafe.play\twirl-api_2.11\jars\twirl-api_2.11-1.0.2.jar;C:\Users\Saroga\.ivy2\cache\org.apache.commons\commons-lang3\jars\commons-lang3-3.1.jar;C:\Users\Saroga\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.1.jar;C:\Users\Saroga\.ivy2\cache\com.typesafe.play\play_2.11\jars\play_2.11-2.3.8.jar;C:\Users\Saroga\.ivy2\cache\com.typesafe.play\build-link\jars\build-link-2.3.8.jar;C:\Users\Saroga\.ivy2\cache\com.typesafe.play\play-exceptions\jars\play-exceptions-2.3.8.jar;C:\Users\Saroga\.ivy2\cache\com.typesafe.play\play-iteratees_2.11\jars\play-iteratees_2.11-2.3.8.jar;C:\Users\Saroga\.ivy2\cache\org.scala-stm\scala-stm_2.11\jars\scala-stm_2.11-0.7.jar;C:\Users\Saroga\.ivy2\cache\com.typesafe\config\bundles\config-1.2.1.jar;C:\Users\Saroga\.ivy2\cache\com.typesafe.play\play-json_2.11\jars\play-json_2.11-2.3.8.jar;C:\Users\Saroga\.ivy2\cache\com.typesafe.play\play-functional_2.11\jars\play-functional_2.11-2.3.8.jar;C:\Users\Saroga\.ivy2\cache\com.typesafe.play\play-datacommons_2.11\jars\play-datacommons_2.11-2.3.8.jar;C:\Users\Saroga\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.3.jar;C:\Users\Saroga\.ivy2\cache\org.joda\joda-convert\jars\joda-convert-1.6.jar;C:\Users\Saroga\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\bundles\jackson-annotations-2.3.2.jar;C:\Users\Saroga\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\bundles\jackson-core-2.3.2.jar;C:\Users\Saroga\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\bundles\jackson-databind-2.3.2.jar;C:\Users\Saroga\Desktop\activator-1.3.2\repository\org.scala-lang\scala-reflect\2.11.1\jars\scala-reflect.jar;C:\Users\Saroga\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\bundles\scala-parser-combinators_2.11-1.0.1.jar;C:\Users\Saroga\.ivy2\cache\io.netty\netty\bundles\netty-3.9.3.Final.jar;C:\Users\Saroga\.ivy2\cache\com.typesafe.netty\netty-http-pipelining\jars\netty-http-pipelining-1.1.2.jar;C:\Users\Saroga\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.6.jar;C:\Users\Saroga\.ivy2\cache\org.slf4j\jul-to-slf4j\jars\jul-to-slf4j-1.7.6.jar;C:\Users\Saroga\.ivy2\cache\org.slf4j\jcl-over-slf4j\jars\jcl-over-slf4j-1.7.6.jar;C:\Users\Saroga\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.1.1.jar;C:\Users\Saroga\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.1.1.jar;C:\Users\Saroga\Desktop\activator-1.3.2\repository\com.typesafe.akka\akka-actor_2.11\2.3.4\jars\akka-actor_2.11.jar;C:\Users\Saroga\Desktop\activator-1.3.2\repository\com.typesafe.akka\akka-slf4j_2.11\2.3.4\jars\akka-slf4j_2.11.jar;C:\Users\Saroga\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.9.jar;C:\Users\Saroga\.ivy2\cache\xerces\xercesImpl\jars\xercesImpl-2.11.0.jar;C:\Users\Saroga\.ivy2\cache\xml-apis\xml-apis\jars\xml-apis-1.4.01.jar;C:\Users\Saroga\.ivy2\cache\javax.transaction\jta\jars\jta-1.1.jar;C:\Users\Saroga\Desktop\activator-1.3.2\repository\com.typesafe.play\play-java_2.11\2.3.8\jars\play-java_2.11.jar;C:\Users\Saroga\Desktop\activator-1.3.2\repository\org.yaml\snakeyaml\1.13\bundles\snakeyaml.jar;C:\Users\Saroga\Desktop\activator-1.3.2\repository\org.hibernate\hibernate-validator\5.0.3.Final\jars\hibernate-validator.jar;C:\Users\Saroga\Desktop\activator-1.3.2\repository\javax.validation\validation-api\1.1.0.Final\jars\validation-api.jar;C:\Users\Saroga\Desktop\activator-1.3.2\repository\com.fasterxml\classmate\1.0.0\bundles\classmate.jar;C:\Users\Saroga\Desktop\activator-1.3.2\repository\org.jboss.logging\jboss-logging\3.2.0.Final\jars\jboss-logging.jar;C:\Users\Saroga\Desktop\activator-1.3.2\repository\org.springframework\spring-context\4.0.3.RELEASE\jars\spring-context.jar;C:\Users\Saroga\Desktop\activator-1.3.2\repository\org.springframework\spring-core\4.0.3.RELEASE\jars\spring-core.jar;C:\Users\Saroga\Desktop\activator-1.3.2\repository\org.springframework\spring-beans\4.0.3.RELEASE\jars\spring-beans.jar;C:\Users\Saroga\Desktop\activator-1.3.2\repository\org.javassist\javassist\3.19.0-GA\bundles\javassist.jar;C:\Users\Saroga\Desktop\activator-1.3.2\repository\org.reflections\reflections\0.9.8\jars\reflections.jar;C:\Users\Saroga\.ivy2\cache\com.google.guava\guava\bundles\guava-16.0.1.jar;C:\Users\Saroga\Desktop\activator-1.3.2\repository\dom4j\dom4j\1.6.1\jars\dom4j.jar;C:\Users\Saroga\Desktop\activator-1.3.2\repository\com.google.code.findbugs\jsr305\2.0.3\jars\jsr305.jar;C:\Users\Saroga\Desktop\activator-1.3.2\repository\org.apache.tomcat\tomcat-servlet-api\8.0.5\jars\tomcat-servlet-api.jar;C:\Users\Saroga\Desktop\activator-1.3.2\repository\com.typesafe.play\play-jdbc_2.11\2.3.8\jars\play-jdbc_2.11.jar;C:\Users\Saroga\Desktop\activator-1.3.2\repository\com.jolbox\bonecp\0.8.0.RELEASE\bundles\bonecp.jar;C:\Users\Saroga\Desktop\activator-1.3.2\repository\com.h2database\h2\1.3.175\jars\h2.jar;C:\Users\Saroga\Desktop\activator-1.3.2\repository\tyrex\tyrex\1.0.1\jars\tyrex.jar;C:\Users\Saroga\Desktop\activator-1.3.2\repository\com.typesafe.play\play-java-ebean_2.11\2.3.8\jars\play-java-ebean_2.11.jar;C:\Users\Saroga\Desktop\activator-1.3.2\repository\com.typesafe.play\play-java-jdbc_2.11\2.3.8\jars\play-java-jdbc_2.11.jar;C:\Users\Saroga\Desktop\activator-1.3.2\repository\org.avaje.ebeanorm\avaje-ebeanorm\3.3.4\jars\avaje-ebeanorm.jar;C:\Users\Saroga\Desktop\activator-1.3.2\repository\org.avaje.ebeanorm\avaje-ebeanorm-agent\3.2.2\jars\avaje-ebeanorm-agent.jar;C:\Users\Saroga\Desktop\activator-1.3.2\repository\org.hibernate.javax.persistence\hibernate-jpa-2.0-api\1.0.1.Final\jars\hibernate-jpa-2.0-api.jar;C:\Users\Saroga\Desktop\activator-1.3.2\repository\com.typesafe.play\play-cache_2.11\2.3.8\jars\play-cache_2.11.jar;C:\Users\Saroga\Desktop\activator-1.3.2\repository\net.sf.ehcache\ehcache-core\2.6.8\jars\ehcache-core.jar;C:\Users\Saroga\.ivy2\cache\com.typesafe.play\play-ws_2.11\jars\play-ws_2.11-2.3.8.jar;C:\Users\Saroga\.ivy2\cache\com.ning\async-http-client\jars\async-http-client-1.8.15.jar;C:\Users\Saroga\.ivy2\cache\oauth.signpost\signpost-core\jars\signpost-core-1.2.1.2.jar;C:\Users\Saroga\.ivy2\cache\oauth.signpost\signpost-commonshttp4\jars\signpost-commonshttp4-1.2.1.2.jar;C:\Users\Saroga\Desktop\activator-1.3.2\repository\org.apache.httpcomponents\httpcore\4.0.1\jars\httpcore.jar;C:\Users\Saroga\Desktop\activator-1.3.2\repository\org.apache.httpcomponents\httpclient\4.0.1\jars\httpclient.jar;C:\Users\Saroga\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.1.1.jar;C:\Users\Saroga\.ivy2\cache\org.xerial\sqlite-jdbc\jars\sqlite-jdbc-3.7.15-M1.jar
+Scala compilation took 1.509933188 s
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Copy resource mappings: 
+	(C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\conf\application.conf,C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\target\scala-2.11\classes\application.conf)
+	(C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\conf\evolutions,C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\target\scala-2.11\classes\evolutions)
+	(C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\conf\routes,C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\target\scala-2.11\classes\routes)
+	(C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\conf\evolutions\default,C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\target\scala-2.11\classes\evolutions\default)
+	(C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\conf\evolutions\default\1.sql,C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\target\scala-2.11\classes\evolutions\default\1.sql)
+Total time: 3 s, completed 13.05.2015 19:12:32
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/Saroga/Desktop/WebTechSS15/musclepedia/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@62ee5d2f, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	(C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\conf\application.conf,C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\target\scala-2.11\classes\application.conf)
+	(C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\conf\evolutions,C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\target\scala-2.11\classes\evolutions)
+	(C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\conf\routes,C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\target\scala-2.11\classes\routes)
+	(C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\conf\evolutions\default,C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\target\scala-2.11\classes\evolutions\default)
+	(C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\conf\evolutions\default\1.sql,C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\target\scala-2.11\classes\evolutions\default\1.sql)
+Total time: 1 s, completed 13.05.2015 19:13:11
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/Saroga/Desktop/WebTechSS15/musclepedia/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@37deb672, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	(C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\conf\application.conf,C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\target\scala-2.11\classes\application.conf)
+	(C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\conf\evolutions,C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\target\scala-2.11\classes\evolutions)
+	(C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\conf\routes,C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\target\scala-2.11\classes\routes)
+	(C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\conf\evolutions\default,C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\target\scala-2.11\classes\evolutions\default)
+	(C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\conf\evolutions\default\1.sql,C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\target\scala-2.11\classes\evolutions\default\1.sql)
+Total time: 1 s, completed 13.05.2015 19:15:22
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/Saroga/Desktop/WebTechSS15/musclepedia/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@24d9663d, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	(C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\conf\application.conf,C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\target\scala-2.11\classes\application.conf)
+	(C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\conf\evolutions,C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\target\scala-2.11\classes\evolutions)
+	(C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\conf\routes,C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\target\scala-2.11\classes\routes)
+	(C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\conf\evolutions\default,C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\target\scala-2.11\classes\evolutions\default)
+	(C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\conf\evolutions\default\1.sql,C:\Users\Saroga\Desktop\WebTechSS15\musclepedia\target\scala-2.11\classes\evolutions\default\1.sql)
+Total time: 1 s, completed 13.05.2015 19:17:39
+> server-post-command-cleanup
+> server-handle-next-server-request
