@@ -5,3 +5,45 @@ New client attempting to connect on port: 56964-56962
 This client on port 56964 has uuid 058c5b68-4e8d-48c7-9da5-cf224cb1eeff configName activator humanReadableName Activator protocolVersion 1 featureTags Vector()
 Connected Clients: activator-058c5b68-4e8d-48c7-9da5-cf224cb1eeff
 Taking next connection to: 56962
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 56962
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 56962
+New client attempting to connect on port: 57125-56962
+  Address = /192.168.2.100:56962
+Handshake exception on socket: 57125
+sbt.impl.ipc.HandshakeException: Unable to perform handshake
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
+	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
+	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(Unknown Source)
+	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
+	... 2 more
+Taking next connection to: 56962
+New client attempting to connect on port: 57127-56962
+  Address = /192.168.2.100:56962
+This client on port 57127 has uuid c0d46464-5458-4ff5-8573-c066427f43d0 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: activator-058c5b68-4e8d-48c7-9da5-cf224cb1eeff, play-fork-run-c0d46464-5458-4ff5-8573-c066427f43d0
+Taking next connection to: 56962
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 56962
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 56962
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 56962
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 56962
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 56962
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 56962

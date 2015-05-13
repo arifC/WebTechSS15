@@ -10,6 +10,18 @@ create table benutzer (
   passwort                  integer)
 ;
 
+create table trainingsplan (
+  plan_id                   integer,
+  typ                       varchar(255))
+;
+
+create table uebungen (
+  uebung_id                 integer,
+  name                      varchar(255),
+  mu                        integer,
+  constraint ck_uebungen_mu check (mu in (0,1,2,3)))
+;
+
 
 
 
@@ -18,6 +30,10 @@ create table benutzer (
 PRAGMA foreign_keys = OFF;
 
 drop table benutzer;
+
+drop table trainingsplan;
+
+drop table uebungen;
 
 PRAGMA foreign_keys = ON;
 

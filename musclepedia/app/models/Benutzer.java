@@ -4,12 +4,24 @@ import play.data.format.*;
 import play.data.validation.*;
 import javax.persistence.Entity;
 
-@Entity
+//@Entity
 public class Benutzer{
-    public long benutzer_id;
+    public int benutzer_id;
     private String name;
     private String email;
     private int passwort;
+    private Trainingsplan myPlan= new Trainingsplan("Custom Plan");
+
+    public void addToPlan(Uebungen u){
+        myPlan.addUebung(u);
+    }
+    public void deleteFromPlan(Uebungen u){
+        myPlan.deleteUebung(u);
+    }
+    public void showPlan(){
+        //wie sollen wir die hier ausgeben??
+        myPlan.showPlan();
+    }
 
     public Benutzer(String name,String mail,int passwort){
         this.name = name;
