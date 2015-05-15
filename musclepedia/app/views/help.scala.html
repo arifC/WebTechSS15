@@ -21,8 +21,8 @@
                         <p><input type="number" id="gewichtB" placeholder="150"/>Gewicht </p>
                         <p><input type="number" id="groesseB" placeholder="1.X"/>Größe </p>
                         <select id="gesch">
-                            <option>männlich</option>
-                            <option>weiblich</option>
+                            <option value="männlich">männlich</option>
+                            <option value="weiblich">weiblich</option>
                         </select>
                         <p>Überprüfe bitte alle Angaben <input type="button" onclick="javascript:bmirechnen()" value="BMI berechnen"></p>
                         <div id="bmierg"></div>
@@ -46,7 +46,6 @@
                 </div>
 
             </div>
-        </div>
         <script type="text/javascript">
             $(document).ready(function ($) {
                 $('#myTab').tab();
