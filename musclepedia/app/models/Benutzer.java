@@ -12,24 +12,15 @@ import java.util.UUID;
 
 @Entity
 public class Benutzer{
-<<<<<<< HEAD
-
     @Id
     private UUID benutzer_id;
-
-=======
-    @Id
-    public int benutzer_id;
     @Constraints.Required
->>>>>>> origin/master
     private String name;
     @Constraints.Required
     private String email;
-<<<<<<< HEAD
-    private String passwort;
-=======
     @Constraints.Required
-    private int passwort;
+    private String passwort;
+
     private Trainingsplan myPlan= new Trainingsplan("Custom Plan");
 
     public void addToPlan(Uebungen u){
@@ -42,7 +33,6 @@ public class Benutzer{
         //wie sollen wir die hier ausgeben??
         myPlan.showPlan();
     }
->>>>>>> origin/master
 
     public Benutzer(UUID id, String name,String mail,String passwort){
         this.benutzer_id = id;
