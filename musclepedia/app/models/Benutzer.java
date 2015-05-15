@@ -3,20 +3,28 @@ package models;
 import play.data.format.*;
 import play.data.validation.*;
 import javax.persistence.Entity;
+import javax.persistence.Id;
+
+import java.util.UUID;
 
 @Entity
 public class Benutzer{
-    public long benutzer_id;
+
+    @Id
+    private UUID benutzer_id;
+
     private String name;
     private String email;
-    private int passwort;
+    private String passwort;
 
-    public Benutzer(String name,String mail,int passwort){
+    public Benutzer(UUID id, String name,String mail,String passwort){
+        this.benutzer_id = id;
         this.name = name;
-        this.email= mail;
-        this.passwort=passwort;
+        this.email = mail;
+        this.passwort = passwort;
     }
-    public void changePasswort(int altpw, int neupw, int neuwiederholung){//beispielmethode
+
+    public void changePasswort(String altpw, String neupw, String neuwiederholung){//beispielmethode
         if(altpw==passwort){
             if(neupw==neuwiederholung){
                 this.passwort=neupw;
