@@ -1528,3 +1528,31 @@ Copy resource mappings:
 Total time: 2 s, completed 13.05.2015 17:46:03
 > server-post-command-cleanup
 > server-handle-next-server-request
+> {file:/C:/Users/ArifC/Desktop/STUDIUM/Semester%204/WebTech/WebTechSS15/musclepedia/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@44c484f, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	(C:\Users\ArifC\Desktop\STUDIUM\Semester 4\WebTech\WebTechSS15\musclepedia\conf\application.conf,C:\Users\ArifC\Desktop\STUDIUM\Semester 4\WebTech\WebTechSS15\musclepedia\target\scala-2.11\classes\application.conf)
+	(C:\Users\ArifC\Desktop\STUDIUM\Semester 4\WebTech\WebTechSS15\musclepedia\conf\evolutions,C:\Users\ArifC\Desktop\STUDIUM\Semester 4\WebTech\WebTechSS15\musclepedia\target\scala-2.11\classes\evolutions)
+	(C:\Users\ArifC\Desktop\STUDIUM\Semester 4\WebTech\WebTechSS15\musclepedia\conf\routes,C:\Users\ArifC\Desktop\STUDIUM\Semester 4\WebTech\WebTechSS15\musclepedia\target\scala-2.11\classes\routes)
+	(C:\Users\ArifC\Desktop\STUDIUM\Semester 4\WebTech\WebTechSS15\musclepedia\conf\evolutions\default,C:\Users\ArifC\Desktop\STUDIUM\Semester 4\WebTech\WebTechSS15\musclepedia\target\scala-2.11\classes\evolutions\default)
+	(C:\Users\ArifC\Desktop\STUDIUM\Semester 4\WebTech\WebTechSS15\musclepedia\conf\evolutions\default\1.sql,C:\Users\ArifC\Desktop\STUDIUM\Semester 4\WebTech\WebTechSS15\musclepedia\target\scala-2.11\classes\evolutions\default\1.sql)
+Total time: 1 s, completed 13.05.2015 17:48:05
+> server-post-command-cleanup
+> server-handle-next-server-request
