@@ -1,23 +1,42 @@
-New log file opened at Wed May 13 17:42:30 CEST 2015 by 5672@ArifCerit
-Taking next connection to: 49427
-New client attempting to connect on port: 49428-49427
-  Address = /192.168.2.102:49427
-Handshake exception on socket: 49428
+<<<<<<< HEAD
+New log file opened at Wed May 13 17:58:33 CEST 2015 by 4276@Felix-PC
+Taking next connection to: 52966
+New client attempting to connect on port: 52968-52966
+  Address = /192.168.0.12:52966
+This client on port 52968 has uuid f37b3a1c-e63b-4f98-9f25-1edbc5a8ea9c configName activator humanReadableName Activator protocolVersion 1 featureTags Vector()
+Connected Clients: activator-f37b3a1c-e63b-4f98-9f25-1edbc5a8ea9c
+Taking next connection to: 52966
+New client attempting to connect on port: 53147-52966
+  Address = /192.168.0.12:52966
+Handshake exception on socket: 53147
+=======
+New log file opened at Wed May 13 18:19:40 CEST 2015 by 10696@SARÖ
+Taking next connection to: 56962
+New client attempting to connect on port: 56964-56962
+  Address = /192.168.2.100:56962
+This client on port 56964 has uuid 058c5b68-4e8d-48c7-9da5-cf224cb1eeff configName activator humanReadableName Activator protocolVersion 1 featureTags Vector()
+Connected Clients: activator-058c5b68-4e8d-48c7-9da5-cf224cb1eeff
+Taking next connection to: 56962
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 56962
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 56962
+New client attempting to connect on port: 57125-56962
+  Address = /192.168.2.100:56962
+Handshake exception on socket: 57125
+>>>>>>> origin/master
 sbt.impl.ipc.HandshakeException: Unable to perform handshake
 	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
 	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
 	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
-Caused by: java.net.SocketException: Software caused connection abort: recv failed
-	at java.net.SocketInputStream.socketRead0(Native Method)
-	at java.net.SocketInputStream.socketRead(Unknown Source)
-	at java.net.SocketInputStream.read(Unknown Source)
-	at java.net.SocketInputStream.read(Unknown Source)
-	at java.io.BufferedInputStream.fill(Unknown Source)
-	at java.io.BufferedInputStream.read(Unknown Source)
+Caused by: java.io.EOFException
 	at java.io.DataInputStream.readInt(Unknown Source)
 	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
 	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
 	... 2 more
+<<<<<<< HEAD
 Taking next connection to: 49427
 New client attempting to connect on port: 49429-49427
   Address = /192.168.2.102:49427
@@ -110,3 +129,73 @@ Taking next connection to: 49427
 Checking to see if clients are empty...
 We have 1 non-daemon clients, continuing serving connections.
 Taking next connection to: 49427
+=======
+<<<<<<< HEAD
+Taking next connection to: 52966
+New client attempting to connect on port: 53148-52966
+  Address = /192.168.0.12:52966
+This client on port 53148 has uuid 86ac741d-7c46-4804-9b69-ce3db987c9f7 configName activator humanReadableName Activator protocolVersion 1 featureTags Vector()
+Connected Clients: activator-86ac741d-7c46-4804-9b69-ce3db987c9f7
+Taking next connection to: 52966
+Checking to see if clients are empty...
+No non-daemon clients connected after 3 min. Shutting down.
+Server socket thread exiting.
+0 clients open, will close them...
+All client sockets have been closed.
+=======
+Taking next connection to: 56962
+New client attempting to connect on port: 57127-56962
+  Address = /192.168.2.100:56962
+This client on port 57127 has uuid c0d46464-5458-4ff5-8573-c066427f43d0 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: activator-058c5b68-4e8d-48c7-9da5-cf224cb1eeff, play-fork-run-c0d46464-5458-4ff5-8573-c066427f43d0
+Taking next connection to: 56962
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 56962
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 56962
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 56962
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 56962
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 56962
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 56962
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 56962
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 56962
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 56962
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 56962
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 56962
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 56962
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 56962
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 56962
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 56962
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 56962
+>>>>>>> origin/master
+>>>>>>> origin/master

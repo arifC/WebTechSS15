@@ -13,7 +13,7 @@ function validateForm(){
         return false;
     }else {
         if (passwort != passwort2) {
-            alert("passwörter sind ungleich");
+            alert("Passwörter sind ungleich");
             return false;
         } else {
             if (benutzername.length() <= 5) {

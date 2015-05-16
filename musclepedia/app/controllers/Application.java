@@ -1,8 +1,14 @@
 package controllers;
 
+import com.avaje.ebean.Ebean;
+import models.Benutzer;
 import play.*;
+import play.data.DynamicForm;
 import play.mvc.*;
 import views.html.*;
+import play.data.Form;
+
+import java.util.UUID;
 
 public class Application extends Controller {
 
@@ -16,8 +22,10 @@ public class Application extends Controller {
     }
     public static Result oberkoerper() {return ok(uebungen_oberkoerper.render());
     }
-    public static Result studios(){return ok(studios.render());}
-    public static Result knStudio(){return ok(studios_kn.render());}
+    public static Result studios(){return ok(studios.render());
+    }
+    public static Result knStudio(){return ok(studios_kn.render());
+    }
     public static Result arme() {return ok(uebungen_arme.render());
     }
     public static Result beine() {return ok(uebungen_beine.render());
@@ -34,12 +42,14 @@ public class Application extends Controller {
     }
     public static Result plaene_fortgesch(){return ok(plaene_fortgesch.render());
     }
-
-
-    public static Result plaene_profi() {
-        return ok(plaene_profi.render());
+    public static Result plaene_profi() {return ok(plaene_profi.render());
     }
-    public static Result benutzer_anlegen(){  return null;
+    public static Result benutzer_anlegen(){
+        DynamicForm dynamicForm = Form.form().bindFromRequest();
+        UUID id = UUID.randomUUID();
+        Benutzer user = new Benutzer(id,dynamicForm.get("regName"),dynamicForm.get("regMail"),dynamicForm.get("regPass"));
+        Ebean.save(user);
+        return ok(login.render());
     }
 
 }
