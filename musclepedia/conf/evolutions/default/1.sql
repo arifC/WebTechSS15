@@ -4,10 +4,10 @@
 # --- !Ups
 
 create table benutzer (
-  benutzer_id               integer primary key AUTOINCREMENT,
+  benutzer_id               varchar(40) primary key,
   name                      varchar(255),
   email                     varchar(255),
-  passwort                  integer)
+  passwort                  varchar(255))
 ;
 
 create table trainingsplan (

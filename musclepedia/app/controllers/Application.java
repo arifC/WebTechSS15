@@ -2,7 +2,6 @@ package controllers;
 
 import com.avaje.ebean.Ebean;
 import models.Benutzer;
-import play.*;
 import play.data.DynamicForm;
 import play.mvc.*;
 import views.html.*;
